@@ -10,7 +10,7 @@ module.exports = (addUtilities) => {
         "margin-bottom": `${tablet.headingH1ParagraphSpacing}px`,
         "text-indent": `${tablet.headingH1Indent}px`,
         "line-height": tablet.headingH1LineHeight,
-        "letter-spacing": "var(--letter-spacing-tracking-tight)",
+        "letter-spacing": "var(--letter-spacing-tracking-normal)",
       },
       ".text-headingH2": {
         "font-weight": tablet.headingH2FontWeight,
@@ -18,7 +18,7 @@ module.exports = (addUtilities) => {
         "margin-bottom": `${tablet.headingH2ParagraphSpacing}px`,
         "text-indent": `${tablet.headingH2Indent}px`,
         "line-height": tablet.headingH2LineHeight,
-        "letter-spacing": "var(--letter-spacing-tracking-tight)",
+        "letter-spacing": "var(--letter-spacing-tracking-normal)",
       },
       ".text-headingH3": {
         "font-weight": tablet.headingH3FontWeight,
@@ -26,7 +26,7 @@ module.exports = (addUtilities) => {
         "margin-bottom": `${tablet.headingH3ParagraphSpacing}px`,
         "text-indent": `${tablet.headingH3Indent}px`,
         "line-height": tablet.headingH3LineHeight,
-        "letter-spacing": "var(--letter-spacing-tracking-tight)",
+        "letter-spacing": "var(--letter-spacing-tracking-normal)",
       },
       ".text-headingH4": {
         "font-weight": tablet.headingH4FontWeight,
@@ -34,7 +34,7 @@ module.exports = (addUtilities) => {
         "margin-bottom": `${tablet.headingH4ParagraphSpacing}px`,
         "text-indent": `${tablet.headingH4Indent}px`,
         "line-height": tablet.headingH4LineHeight,
-        "letter-spacing": "var(--letter-spacing-tracking-tight)",
+        "letter-spacing": "var(--letter-spacing-tracking-normal)",
       },
       ".text-lead": {
         "font-weight": tablet.leadFontWeight,

@@ -17,6 +17,7 @@ Se pueden incluir otras variables de CSS a través del plugin Variables2CSS (par
 3. [Instalación](#instalación)
 4. [Scripts del Proyecto](#scripts-del-proyecto)
 5. [Estructura del Proyecto](#estructura-del-proyecto)
+6. [Uso de clases](#uso-de-clases)
 
 ---
 
@@ -104,7 +105,7 @@ El archivo `package.json` incluye los siguientes scripts:
 
 ---
 
-## Uso de clases
+## **Uso de clases**
 
 ```html
 <!-- Contenedor con clases del tema (data-theme="4th") y clases que cambian en función del tema-->

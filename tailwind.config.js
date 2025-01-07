@@ -27,6 +27,11 @@ module.exports = {
         mono: ['Courier New', 'monospace']
       },
       fontSize,
+      screens: {
+        'md': '768px',
+        'lg': '1440px',
+        'xl': '2560px',
+      }
     },
   },
   plugins: [

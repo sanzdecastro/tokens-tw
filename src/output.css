@@ -1092,21 +1092,21 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
+    max-width: 1440px;
   }
 }
 
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2560px;
   }
 }
 
@@ -24089,7 +24089,7 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .text-headingH1 {
     font-weight: 300;
     font-size: 48px;
@@ -24169,7 +24169,7 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 2560px) {
   .text-headingH1 {
     font-weight: 300;
     font-size: 60px;

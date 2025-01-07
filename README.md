@@ -103,3 +103,16 @@ El archivo `package.json` incluye los siguientes scripts:
 ```
 
 ---
+
+## Uso de clases
+
+```html
+<!-- Contenedor con clases del tema (data-theme="4th") y clases que cambian en función del tema-->
+ <section data-theme="4th" class="bg-muted text-foreground p-10">
+    <code class="font-mono text-bodyLight">.text-headingH1</code>
+    <!-- Clase de Tailwind con clave definida en token semántico (class="text-headingH1") -->
+    <h1 class="text-headingH1">
+      Curator Eileen Isagon 2024 Skyers talks with writer.
+    </h1>
+  </section>
+```

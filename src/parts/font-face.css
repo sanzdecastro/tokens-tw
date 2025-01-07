@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("fonts/suisse/SuisseIntl-Thin.woff2") format("woff2"),
+          url("fonts/suisse/SuisseIntl-Thin.woff") format("woff"),
+          url("fonts/suisse/SuisseIntl-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("fonts/suisse/SuisseIntl-Regular.woff2") format("woff2"),
+          url("fonts/suisse/SuisseIntl-Regular.woff") format("woff"),
+          url("fonts/suisse/SuisseIntl-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("fonts/suisse/SuisseIntl-Book.woff2") format("woff2"),
+       url("fonts/suisse/SuisseIntl-Book.woff") format("woff"),
+       url("fonts/suisse/SuisseIntl-Book.ttf") format("truetype");
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("fonts/suisse/SuisseIntl-Medium.woff2") format("woff2"),
+       url("fonts/suisse/SuisseIntl-Medium.woff") format("woff"),
+       url("fonts/suisse/SuisseIntl-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("fonts/suisse/SuisseIntl-SemiBold.woff2") format("woff2"),
+       url("fonts/suisse/SuisseIntl-SemiBold.woff") format("woff"),
+       url("fonts/suisse/SuisseIntl-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("fonts/suisse/SuisseIntl-Bold.woff2") format("woff2"),
+       url("fonts/suisse/SuisseIntl-Bold.woff") format("woff"),
+       url("fonts/suisse/SuisseIntl-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("fonts/suisse/SuisseIntl-Black.woff2") format("woff2"),
+       url("fonts/suisse/SuisseIntl-Black.woff") format("woff"),
+       url("fonts/suisse/SuisseIntl-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Works";
+  src: url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff2") format("woff2"),
+          url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff") format("woff"),
+          url("fonts/suisse-works/SuisseWorks-Bold-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: serif;
+}
+
+
+
+
+
+  
+
+
+
+

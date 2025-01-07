@@ -1,0 +1,8 @@
+:root {
+    --letter-spacing-tracking-tighter: -0.05em;
+    --letter-spacing-tracking-tight: -0.025em;
+    --letter-spacing-tracking-normal: 0em;
+    --letter-spacing-tracking-wide: 0.025em;
+    --letter-spacing-tracking-wider: 0.05em;
+    --letter-spacing-tracking-widest: 0.1em;
+  }

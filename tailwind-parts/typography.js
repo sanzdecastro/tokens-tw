@@ -4,8 +4,18 @@ const { mobile } = tokensTypography;
 
 module.exports = {
     fontFamily: {
-        sans: ["'Suisse Int\\'l'", 'sans-serif'],
-        serif: ["'Suisse Works'", 'serif'],
+        sans: ["'Suisse Int\\'l'", 'sans-serif',
+          {
+            fontFeatureSettings: '"cv11", "ss01"',
+            fontVariationSettings: '"opsz" 32'
+          },
+        ],
+        serif: ["'Suisse Works'", 'serif',
+          {
+            fontFeatureSettings: '"cv11", "ss01"',
+            fontVariationSettings: '"opsz" 32'
+          },
+        ],
         mono: ['Courier New', 'monospace']
     },
     fontSize: {

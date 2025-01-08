@@ -1,7 +1,9 @@
-@import "parts/colors.css";
+
 @import "parts/letter-spacing.css";
 @import "parts/themes.css";
 @import "parts/font-face.css";
+
+@import "components/buttons.css";
 
 @tailwind base;
 @tailwind components;

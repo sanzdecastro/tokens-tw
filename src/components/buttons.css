@@ -3,12 +3,11 @@
         @apply
         py-2 
         px-5
-        text-foreground
-        bg-foreground 
-        text-white 
-        rounded-full 
-        hover:bg-hoverPrimary
+        text-primary-foreground
+        bg-primary
+        rounded-md
+        hover:bg-hover-primary
         focus:outline-none 
-        focus:ring;
+        focus:ring-ring;
     }
 }

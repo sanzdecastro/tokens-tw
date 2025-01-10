@@ -27,6 +27,11 @@ module.exports = {
         mono: ['Courier New', 'monospace']
       },
       fontSize,
+      borderRadius: {
+        lg: `0.5rem`,
+        md: `calc(0.5rem - 2px)`,
+        sm: "calc(0.5rem - 4px)",
+      },
       screens: {
         'md': '768px',
         'lg': '1440px',

@@ -36,6 +36,15 @@ module.exports = {
         'md': '768px',
         'lg': '1440px',
         'xl': '2560px',
+      },
+      fontWeight: {
+        'thin': '300',
+        normal: '400',
+        'book': '450',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+        'black': '800',
       }
     },
   },

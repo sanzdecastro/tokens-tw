@@ -1,6 +1,7 @@
 
 @import "parts/letter-spacing.css";
 @import "parts/themes.css";
+/* @import "parts/themes2.css"; */
 @import "parts/font-face.css";
 
 @import "components/buttons.css";
@@ -10,11 +11,3 @@
 @tailwind utilities;
  
 
-@layer base {
-    * {
-      @apply border-border;
-    }
-    body {
-      @apply font-sans antialiased bg-background text-foreground;
-    }
-  }

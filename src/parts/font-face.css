@@ -5,6 +5,7 @@
             url("fonts/suisse/SuisseIntl-Thin.woff") format("woff"),
             url("fonts/suisse/SuisseIntl-Thin.ttf") format("truetype");
     font-weight: 300;
+    font-display: swap;
     font-style: normal;
   }
   
@@ -15,6 +16,7 @@
             url("fonts/suisse/SuisseIntl-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
   }
   
   @font-face {
@@ -23,6 +25,7 @@
          url("fonts/suisse/SuisseIntl-Book.woff") format("woff"),
          url("fonts/suisse/SuisseIntl-Book.ttf") format("truetype");
     font-weight: 450;
+    font-display: swap;
     font-style: normal;
   }
   
@@ -32,6 +35,7 @@
          url("fonts/suisse/SuisseIntl-Medium.woff") format("woff"),
          url("fonts/suisse/SuisseIntl-Medium.ttf") format("truetype");
     font-weight: 500;
+    font-display: swap;
     font-style: normal;
   }
   
@@ -41,6 +45,7 @@
          url("fonts/suisse/SuisseIntl-SemiBold.woff") format("woff"),
          url("fonts/suisse/SuisseIntl-SemiBold.ttf") format("truetype");
     font-weight: 600;
+    font-display: swap;
     font-style: normal;
   }
   
@@ -50,6 +55,7 @@
          url("fonts/suisse/SuisseIntl-Bold.woff") format("woff"),
          url("fonts/suisse/SuisseIntl-Bold.ttf") format("truetype");
     font-weight: 700;
+    font-display: swap;
     font-style: normal;
   }
   
@@ -60,6 +66,7 @@
          url("fonts/suisse/SuisseIntl-Black.woff") format("woff"),
          url("fonts/suisse/SuisseIntl-Black.ttf") format("truetype");
     font-weight: 800;
+    font-display: swap;
     font-style: normal;
   }
   
@@ -69,6 +76,7 @@
             url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff") format("woff"),
             url("fonts/suisse-works/SuisseWorks-Bold-Thin.ttf") format("truetype");
     font-weight: 300;
+    font-display: swap;
     font-style: serif;
   }
   

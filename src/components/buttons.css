@@ -1,81 +1,72 @@
 @layer components {
-    .btn-primary {
-        @apply
-        cursor-pointer
-        text-sm
-        py-2
-        px-3
-        font-sans
-        font-light
-        min-w-16
-        leading-6
-        inline-flex
-        justify-center
-        items-center
-        text-primary-foreground
-        bg-primary
-        rounded-md
-        hover:bg-hover-primary
-        focus:ring-2
-        focus:ring-ring 
-        ring-offset-2
-        dark:ring-offset-background;
-    }
-    .btn-secondary {
-        @apply
-        font-normal
-        text-sm
-        leading-none
-        py-2
-        pt-2.5
-        px-3
-        text-secondary-foreground
-        bg-secondary
-        rounded-md
-        hover:bg-hover-secondary
-        focus:ring-ring;
-    }
-
-    .btn-xs {
-        @apply
-        text-xs
-        font-sans
-        font-thin
-        py-1
-        px-2;
-    }
-
-    .btn-sm {
-        @apply
-        text-sm
-        leading-6
-        font-sans
-        font-thin
-        py-0.5
-        px-2;
-    }
-
-    .btn-md {
-        
-    }
-
-    .btn-lg {
-        @apply
-        text-lg
-        leading-none
-        font-sans
-        font-normal
-        py-2.5
-        px-5;
-    }
-
-    .btn-xl {
-        @apply
-        text-2xl
-        leading-none
-        font-sans
-        font-light
-        py-2.5
-        px-4;
-    }
+  .btn-primary {
+    @apply cursor-pointer
+          text-sm
+          py-2
+          px-3
+          font-sans
+          font-light
+          min-w-16
+          leading-6
+          inline-flex
+          justify-center
+          items-center
+          text-primary-foreground
+          bg-primary
+          rounded-md
+          hover:bg-hover-primary
+          focus:ring-2
+          focus:ring-ring 
+          ring-offset-2
+          dark:ring-offset-background;
+  }
+  
+  .btn-secondary {
+    @apply font-normal
+          text-sm
+          leading-none
+          py-2
+          pt-2.5
+          px-3
+          text-secondary-foreground
+          bg-secondary
+          rounded-md
+          hover:bg-hover-secondary
+          focus:ring-ring;
+  }
+  
+  .btn-xs {
+    @apply text-xs
+          font-sans
+          font-thin
+          py-1
+          px-2;
+  }
+  
+  .btn-sm {
+    @apply text-sm
+          leading-6
+          font-sans
+          font-thin
+          py-0.5
+          px-2;
+  }
+  
+  .btn-lg {
+    @apply text-lg
+          leading-none
+          font-sans
+          font-normal
+          py-2.5
+          px-5;
+  }
+  
+  .btn-xl {
+    @apply text-2xl
+          leading-none
+          font-sans
+          font-light
+          py-2.5
+          px-4;
+  }
 }

@@ -48,7 +48,4 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    plugin(({ addUtilities }) => customUtilities(addUtilities)),
-  ]
 }

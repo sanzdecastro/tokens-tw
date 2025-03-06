@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
 
 const colors = require('./tailwind-parts/colors');
-const fontSize = require('./tailwind-parts/typography');
+// const fontSize = require('./tailwind-parts/typography');
 const customTypography = require('./utilities/custom-typography');
 
 

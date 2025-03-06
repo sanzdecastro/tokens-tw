@@ -2,6 +2,10 @@ const tokensTypography = require("../tokens/typography-semantic.json");
 
 module.exports = function ({ addComponents, theme }) {
   const { mobile, tablet, desktopDefault, bigDesktop } = tokensTypography;
+
+  // Añadimos los screens definidos en el config para hacer referencia a ellos
+  // En TW4 no podemos usar la directiva @md, @lg como en TW3
+  // Definimos también los valores en mobile aquí (no creamos la clase utilitaria desde fontSize en config)
   const screens = theme("screens");
 
   const components = {

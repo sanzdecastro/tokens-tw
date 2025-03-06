@@ -27,7 +27,7 @@ const fontSize = {
       letterSpacing: mobile.headingH2LetterSpacing,
     },
   ],
-  headingH4: [
+  headingh4: [
     `${mobile.headingH4FontSize}px`,
     {
       lineHeight: `${mobile.headingH4LineHeight}`,

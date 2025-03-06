@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 const colors = require('./tailwind-parts/colors');
 const fontSize = require('./tailwind-parts/typography');
-const customUtilities = require('./utilities/custom-utilities');
+const customComponents = require('./utilities/custom-components');
 
 
 module.exports = {
@@ -48,4 +48,7 @@ module.exports = {
       }
     },
   },
+  plugins: [
+    plugin(customComponents)
+  ],
 }

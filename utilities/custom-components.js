@@ -1,54 +1,55 @@
 const tokensTypography = require("../tokens/typography-semantic.json");
 
-module.exports = (addUtilities) => {
+module.exports = function ({ addComponents }) {
   const { mobile, tablet, desktopDefault, bigDesktop } = tokensTypography;
-  const utilities = {
-    "" : {
-      ".text-headingH1": {
-        "margin-bottom": `${mobile.headingH1ParagraphSpacing}px`,
-        "text-indent": `${mobile.headingH1Indent}px`,
-      },
-      ".text-headingH2": {
-        "margin-bottom": `${mobile.headingH2ParagraphSpacing}px`,
-        "text-indent": `${mobile.headingH2Indent}px`,
-      },
-      ".text-headingH3": {
-        "margin-bottom": `${mobile.headingH3ParagraphSpacing}px`,
-        "text-indent": `${mobile.headingH3Indent}px`,
-      },
-      ".text-headingH4": {
-        "margin-bottom": `${mobile.headingH4ParagraphSpacing}px`,
-        "text-indent": `${mobile.headingH4Indent}px`,
-      },
-      ".text-lead": {
-        "margin-bottom": `${mobile.leadParagraphSpacing}px`,
-        "text-indent": `${mobile.leadIndent}px`,
-      },
-      ".text-large": {
-        "margin-bottom": `${mobile.largeParagraphSpacing}px`,
-        "text-indent": `${mobile.largeIndent}px`,
-      },
-      ".text-p": {
-        "margin-bottom": `${mobile.pParagraphSpacing}px`,
-        "text-indent": `${mobile.pIndent}px`,
-      },
-      ".text-bodyBook": {
-        "margin-bottom": `${mobile.bodyBookParagraphSpacing}px`,
-        "text-indent": `${mobile.bodyBookIndent}px`,
-      },
-      ".text-bodyMedium": {
-        "margin-bottom": `${mobile.bodyMediumParagraphSpacing}px`,
-        "text-indent": `${mobile.bodyMediumIndent}px`,
-      },
-      ".text-bodyRegular": {
-        "margin-bottom": `${mobile.bodyRegularParagraphSpacing}px`,
-        "text-indent": `${mobile.bodyRegularIndent}px`,
-      },
-      ".text-bodyLight": {
-        "margin-bottom": `${mobile.bodyLightParagraphSpacing}px`,
-        "text-indent": `${mobile.bodyLightIndent}px`,
-      },
+  const screens = theme("screens");
+  
+  const components = {
+    ".text-headingH1": {
+      "margin-bottom": `${mobile.headingH1ParagraphSpacing}px`,
+      "text-indent": `${mobile.headingH1Indent}px`,
     },
+    ".text-headingH2": {
+      "margin-bottom": `${mobile.headingH2ParagraphSpacing}px`,
+      "text-indent": `${mobile.headingH2Indent}px`,
+    },
+    ".text-headingH3": {
+      "margin-bottom": `${mobile.headingH3ParagraphSpacing}px`,
+      "text-indent": `${mobile.headingH3Indent}px`,
+    },
+    ".text-headingH4": {
+      "margin-bottom": `${mobile.headingH4ParagraphSpacing}px`,
+      "text-indent": `${mobile.headingH4Indent}px`,
+    },
+    ".text-lead": {
+      "margin-bottom": `${mobile.leadParagraphSpacing}px`,
+      "text-indent": `${mobile.leadIndent}px`,
+    },
+    ".text-large": {
+      "margin-bottom": `${mobile.largeParagraphSpacing}px`,
+      "text-indent": `${mobile.largeIndent}px`,
+    },
+    ".text-p": {
+      "margin-bottom": `${mobile.pParagraphSpacing}px`,
+      "text-indent": `${mobile.pIndent}px`,
+    },
+    ".text-bodyBook": {
+      "margin-bottom": `${mobile.bodyBookParagraphSpacing}px`,
+      "text-indent": `${mobile.bodyBookIndent}px`,
+    },
+    ".text-bodyMedium": {
+      "margin-bottom": `${mobile.bodyMediumParagraphSpacing}px`,
+      "text-indent": `${mobile.bodyMediumIndent}px`,
+    },
+    ".text-bodyRegular": {
+      "margin-bottom": `${mobile.bodyRegularParagraphSpacing}px`,
+      "text-indent": `${mobile.bodyRegularIndent}px`,
+    },
+    ".text-bodyLight": {
+      "margin-bottom": `${mobile.bodyLightParagraphSpacing}px`,
+      "text-indent": `${mobile.bodyLightIndent}px`,
+    },
+
     "@screen md": {
       ".text-headingH1": {
         "font-weight": tablet.headingH1FontWeight,
@@ -132,13 +133,14 @@ module.exports = (addUtilities) => {
         "line-height": tablet.bodyLightLineHeight,
       },
     },
+
     "@screen lg": {
       ".text-headingH1": {
         "font-weight": desktopDefault.headingH1FontWeight,
         "font-size": desktopDefault.headingH1FontSize,
         "margin-bottom": `${desktopDefault.headingH1ParagraphSpacing}px`,
         "text-indent": `${desktopDefault.headingH1Indent}px`,
-        "line-height": tablet.headingH1LineHeight,
+        "line-height": desktopDefault.headingH1LineHeight,
       },
       ".text-headingH2": {
         "font-weight": desktopDefault.headingH2FontWeight,
@@ -201,6 +203,7 @@ module.exports = (addUtilities) => {
         "text-indent": `${desktopDefault.bodyLightIndent}px`,
       },
     },
+
     "@screen xl": {
       ".text-headingH1": {
         "font-weight": bigDesktop.headingH1FontWeight,
@@ -270,5 +273,6 @@ module.exports = (addUtilities) => {
       },
     },
   };
-  addUtilities(utilities, { variants: ["responsive"] });
+
+  addComponents(components);
 };

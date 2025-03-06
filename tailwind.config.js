@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 const colors = require('./tailwind-parts/colors');
 const fontSize = require('./tailwind-parts/typography');
-const customComponents = require('./utilities/custom-components');
+const customTypography = require('./utilities/custom-typography');
 
 
 module.exports = {
@@ -26,7 +26,7 @@ module.exports = {
         serif: ["'Suisse Works'", 'serif'],
         mono: ['Courier New', 'monospace']
       },
-      fontSize,
+      // fontSize,
       borderRadius: {
         lg: `0.5rem`,
         md: `calc(0.5rem - 2px)`,
@@ -49,6 +49,6 @@ module.exports = {
     },
   },
   plugins: [
-    plugin(customComponents)
+    plugin(customTypography)
   ],
 }

@@ -1,4 +1,4 @@
-@layer components {
+
   .btn-primary {
     @apply cursor-pointer
           text-sm
@@ -69,4 +69,4 @@
           py-2.5
           px-4;
   }
-}
+

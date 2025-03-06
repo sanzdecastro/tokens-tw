@@ -1,4 +1,4 @@
-/*! tailwindcss v4.0.10 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.0.11 | MIT License | https://tailwindcss.com */
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -172,6 +172,278 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .text-heading-h1 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 32px;
+    text-indent: 0px;
+    @media (min-width: 768px) {
+      font-weight: 300;
+      font-size: 32px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 300;
+      font-size: 48px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 300;
+      font-size: 60px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+  }
+  .text-heading-h2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 120%;
+    margin-bottom: 32px;
+    text-indent: 0px;
+    @media (min-width: 768px) {
+      font-weight: 300;
+      font-size: 30px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 300;
+      font-size: 36px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 300;
+      font-size: 48px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+  }
+  .text-body-book {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-indent: 32px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 450;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 450;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 450;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+  }
+  .text-body-light {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-indent: 32px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+  }
+  .text-body-medium {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-indent: 32px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+  }
+  .text-body-regular {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-indent: 32px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+  }
+  .text-heading-h3 {
+    font-size: 20px;
+    margin-bottom: 24px;
+    text-indent: 0px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 400;
+      font-size: 24px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 400;
+      font-size: 32px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 400;
+      font-size: 36px;
+      margin-bottom: 24px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+  }
+  .text-large {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-indent: 0px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+  }
+  .text-lead {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-indent: 32px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 400;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 400;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 400;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-indent: 32px;
+      line-height: 120%;
+    }
+  }
+  .text-p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-indent: 0px;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 10px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 10px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 10px;
+      text-indent: 0px;
+      line-height: 120%;
+    }
+  }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
@@ -256,24 +528,6 @@
   }
   .font-sans {
     font-family: 'Suisse Int\'l', sans-serif;
-  }
-  .text-large {
-    font-size: 18px;
-    line-height: var(--tw-leading, 120%);
-    letter-spacing: var(--tw-tracking, -0.5%);
-    font-weight: var(--tw-font-weight, 400);
-  }
-  .text-lead {
-    font-size: 24px;
-    line-height: var(--tw-leading, 120%);
-    letter-spacing: var(--tw-tracking, -0.5%);
-    font-weight: var(--tw-font-weight, 400);
-  }
-  .text-p {
-    font-size: 16px;
-    line-height: var(--tw-leading, 120%);
-    letter-spacing: var(--tw-tracking, -0.5%);
-    font-weight: var(--tw-font-weight, 400);
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -385,7 +639,7 @@
     }
   }
 }
-@layer theme {
+@layer base {
   :root {
     --background: hsl(0, 0%, 100%);
     --foreground: hsl(24, 10%, 10%);
@@ -560,167 +814,163 @@
   }
 }
 @layer base {
-  @layer base {
-    @font-face {
-      font-family: "Suisse Intl";
-      src: url("fonts/suisse/SuisseIntl-Thin.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Thin.woff") format("woff"), url("fonts/suisse/SuisseIntl-Thin.ttf") format("truetype");
-      font-weight: 300;
-      font-display: swap;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: "Suisse Intl";
-      src: url("fonts/suisse/SuisseIntl-Regular.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Regular.woff") format("woff"), url("fonts/suisse/SuisseIntl-Regular.ttf") format("truetype");
-      font-weight: 400;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "Suisse Intl";
-      src: url("fonts/suisse/SuisseIntl-Book.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Book.woff") format("woff"), url("fonts/suisse/SuisseIntl-Book.ttf") format("truetype");
-      font-weight: 450;
-      font-display: swap;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: "Suisse Intl";
-      src: url("fonts/suisse/SuisseIntl-Medium.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Medium.woff") format("woff"), url("fonts/suisse/SuisseIntl-Medium.ttf") format("truetype");
-      font-weight: 500;
-      font-display: swap;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: "Suisse Intl";
-      src: url("fonts/suisse/SuisseIntl-SemiBold.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-SemiBold.woff") format("woff"), url("fonts/suisse/SuisseIntl-SemiBold.ttf") format("truetype");
-      font-weight: 600;
-      font-display: swap;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: "Suisse Intl";
-      src: url("fonts/suisse/SuisseIntl-Bold.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Bold.woff") format("woff"), url("fonts/suisse/SuisseIntl-Bold.ttf") format("truetype");
-      font-weight: 700;
-      font-display: swap;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: "Suisse Intl";
-      src: url("fonts/suisse/SuisseIntl-Black.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Black.woff") format("woff"), url("fonts/suisse/SuisseIntl-Black.ttf") format("truetype");
-      font-weight: 800;
-      font-display: swap;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: "Suisse Works";
-      src: url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-Bold-Thin.ttf") format("truetype");
-      font-weight: 300;
-      font-display: swap;
-      font-style: serif;
-    }
+  @font-face {
+    font-family: "Suisse Intl";
+    src: url("fonts/suisse/SuisseIntl-Thin.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Thin.woff") format("woff"), url("fonts/suisse/SuisseIntl-Thin.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Suisse Intl";
+    src: url("fonts/suisse/SuisseIntl-Regular.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Regular.woff") format("woff"), url("fonts/suisse/SuisseIntl-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Suisse Intl";
+    src: url("fonts/suisse/SuisseIntl-Book.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Book.woff") format("woff"), url("fonts/suisse/SuisseIntl-Book.ttf") format("truetype");
+    font-weight: 450;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Suisse Intl";
+    src: url("fonts/suisse/SuisseIntl-Medium.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Medium.woff") format("woff"), url("fonts/suisse/SuisseIntl-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Suisse Intl";
+    src: url("fonts/suisse/SuisseIntl-SemiBold.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-SemiBold.woff") format("woff"), url("fonts/suisse/SuisseIntl-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Suisse Intl";
+    src: url("fonts/suisse/SuisseIntl-Bold.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Bold.woff") format("woff"), url("fonts/suisse/SuisseIntl-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Suisse Intl";
+    src: url("fonts/suisse/SuisseIntl-Black.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Black.woff") format("woff"), url("fonts/suisse/SuisseIntl-Black.ttf") format("truetype");
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Suisse Works";
+    src: url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-Bold-Thin.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: serif;
   }
 }
 @layer components {
-  @layer components {
-    .btn-primary {
-      display: inline-flex;
-      min-width: calc(var(--spacing) * 16);
-      cursor: pointer;
-      align-items: center;
-      justify-content: center;
-      border-radius: calc(0.5rem - 2px);
-      background-color: var(--primary);
-      padding-inline: calc(var(--spacing) * 3);
-      padding-block: calc(var(--spacing) * 2);
-      font-family: 'Suisse Int\'l', sans-serif;
-      font-size: var(--text-sm);
-      line-height: var(--tw-leading, var(--text-sm--line-height));
-      --tw-leading: calc(var(--spacing) * 6);
-      line-height: calc(var(--spacing) * 6);
-      --tw-font-weight: var(--font-weight-light);
-      font-weight: var(--font-weight-light);
-      color: var(--primary-foreground);
-      --tw-ring-offset-width: 2px;
-      --tw-ring-offset-shadow: var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-      &:hover {
-        @media (hover: hover) {
-          background-color: var(--hover-primary);
-        }
-      }
-      &:focus {
-        --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
-        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-      }
-      &:focus {
-        --tw-ring-color: var(--ring);
-      }
-      @media (prefers-color-scheme: dark) {
-        --tw-ring-offset-color: var(--background);
+  .btn-primary {
+    display: inline-flex;
+    min-width: calc(var(--spacing) * 16);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: calc(0.5rem - 2px);
+    background-color: var(--primary);
+    padding-inline: calc(var(--spacing) * 3);
+    padding-block: calc(var(--spacing) * 2);
+    font-family: 'Suisse Int\'l', sans-serif;
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+    --tw-leading: calc(var(--spacing) * 6);
+    line-height: calc(var(--spacing) * 6);
+    --tw-font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
+    color: var(--primary-foreground);
+    --tw-ring-offset-width: 2px;
+    --tw-ring-offset-shadow: var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--hover-primary);
       }
     }
-    .btn-secondary {
-      border-radius: calc(0.5rem - 2px);
-      background-color: var(--secondary);
-      padding-inline: calc(var(--spacing) * 3);
-      padding-block: calc(var(--spacing) * 2);
-      padding-top: calc(var(--spacing) * 2.5);
-      font-size: var(--text-sm);
-      line-height: var(--tw-leading, var(--text-sm--line-height));
-      --tw-leading: 1;
-      line-height: 1;
-      --tw-font-weight: 400;
-      font-weight: 400;
-      color: var(--secondary-foreground);
-      &:hover {
-        @media (hover: hover) {
-          background-color: var(--hover-secondary);
-        }
+    &:focus {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+    &:focus {
+      --tw-ring-color: var(--ring);
+    }
+    @media (prefers-color-scheme: dark) {
+      --tw-ring-offset-color: var(--background);
+    }
+  }
+  .btn-secondary {
+    border-radius: calc(0.5rem - 2px);
+    background-color: var(--secondary);
+    padding-inline: calc(var(--spacing) * 3);
+    padding-block: calc(var(--spacing) * 2);
+    padding-top: calc(var(--spacing) * 2.5);
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+    --tw-leading: 1;
+    line-height: 1;
+    --tw-font-weight: 400;
+    font-weight: 400;
+    color: var(--secondary-foreground);
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--hover-secondary);
       }
-      &:focus {
-        --tw-ring-color: var(--ring);
-      }
     }
-    .btn-xs {
-      padding-inline: calc(var(--spacing) * 2);
-      padding-block: calc(var(--spacing) * 1);
-      font-family: 'Suisse Int\'l', sans-serif;
-      font-size: var(--text-xs);
-      line-height: var(--tw-leading, var(--text-xs--line-height));
-      --tw-font-weight: 300;
-      font-weight: 300;
+    &:focus {
+      --tw-ring-color: var(--ring);
     }
-    .btn-sm {
-      padding-inline: calc(var(--spacing) * 2);
-      padding-block: calc(var(--spacing) * 0.5);
-      font-family: 'Suisse Int\'l', sans-serif;
-      font-size: var(--text-sm);
-      line-height: var(--tw-leading, var(--text-sm--line-height));
-      --tw-leading: calc(var(--spacing) * 6);
-      line-height: calc(var(--spacing) * 6);
-      --tw-font-weight: 300;
-      font-weight: 300;
-    }
-    .btn-lg {
-      padding-inline: calc(var(--spacing) * 5);
-      padding-block: calc(var(--spacing) * 2.5);
-      font-family: 'Suisse Int\'l', sans-serif;
-      font-size: var(--text-lg);
-      line-height: var(--tw-leading, var(--text-lg--line-height));
-      --tw-leading: 1;
-      line-height: 1;
-      --tw-font-weight: 400;
-      font-weight: 400;
-    }
-    .btn-xl {
-      padding-inline: calc(var(--spacing) * 4);
-      padding-block: calc(var(--spacing) * 2.5);
-      font-family: 'Suisse Int\'l', sans-serif;
-      font-size: var(--text-2xl);
-      line-height: var(--tw-leading, var(--text-2xl--line-height));
-      --tw-leading: 1;
-      line-height: 1;
-      --tw-font-weight: var(--font-weight-light);
-      font-weight: var(--font-weight-light);
-    }
+  }
+  .btn-xs {
+    padding-inline: calc(var(--spacing) * 2);
+    padding-block: calc(var(--spacing) * 1);
+    font-family: 'Suisse Int\'l', sans-serif;
+    font-size: var(--text-xs);
+    line-height: var(--tw-leading, var(--text-xs--line-height));
+    --tw-font-weight: 300;
+    font-weight: 300;
+  }
+  .btn-sm {
+    padding-inline: calc(var(--spacing) * 2);
+    padding-block: calc(var(--spacing) * 0.5);
+    font-family: 'Suisse Int\'l', sans-serif;
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+    --tw-leading: calc(var(--spacing) * 6);
+    line-height: calc(var(--spacing) * 6);
+    --tw-font-weight: 300;
+    font-weight: 300;
+  }
+  .btn-lg {
+    padding-inline: calc(var(--spacing) * 5);
+    padding-block: calc(var(--spacing) * 2.5);
+    font-family: 'Suisse Int\'l', sans-serif;
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
+    --tw-leading: 1;
+    line-height: 1;
+    --tw-font-weight: 400;
+    font-weight: 400;
+  }
+  .btn-xl {
+    padding-inline: calc(var(--spacing) * 4);
+    padding-block: calc(var(--spacing) * 2.5);
+    font-family: 'Suisse Int\'l', sans-serif;
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+    --tw-leading: 1;
+    line-height: 1;
+    --tw-font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
   }
 }
 @layer base {

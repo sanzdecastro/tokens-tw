@@ -1,9 +1,9 @@
+@config '../tailwind.config.js';
 @import 'tailwindcss';
 
-@config '../tailwind.config.js';
 
 /* @import './parts/letter-spacing.css' layer(base); */
-@import './parts/themes.css' layer(theme);
+@import './parts/themes.css' layer(base);
 @import './parts/font-face.css' layer(base);
 
 @import './components/buttons.css' layer(components);

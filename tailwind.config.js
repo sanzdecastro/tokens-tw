@@ -1,16 +1,14 @@
 const plugin = require('tailwindcss/plugin')
 
-// const colors = require('./tailwind-parts/colors');
+// const colors = require('./tailwind-parts/colors.js');
 // const fontSize = require('./tailwind-parts/typography');
 const customTypography = require('./utilities/custom-typography');
 
 
 module.exports = {
   content: [
-    "./*.html",
-    "./src/**/*.{html,js,css,ts,jsx,tsx}",
-    "../wp-theme/**/*.php",
-    "../wp-theme/**/*.html",
+    "./index.html",
+    "./src/**/**/*.{html,js,jsx,ts,tsx,css}",
   ],
   safelist: [
     { pattern: /^(p|px|py|pt|pr|pb|pl)-(0(\.5)?|1(\.5)?|2(\.5)?|3(\.5)?|4|5|6|7|8|9|10|11|12|14|16|20|24|28|32|36|40|44|48|52|56|60|64|72|80|96|px)$/ },

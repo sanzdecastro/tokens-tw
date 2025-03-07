@@ -38,6 +38,11 @@ function hexToHsl(hex) {
   return `hsl(${h}, ${s}%, ${l}%)`;
 }
 
+// Función para convertir camelCase a kebab-case
+function camelToKebab(str) {
+  return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+}
+
 // Genera CSS a partir del JSON
 function generateCss(themes) {
   const entries = Object.entries(themes);
@@ -45,12 +50,12 @@ function generateCss(themes) {
   const firstThemeColors = entries[0][1];
 
   const rootVariables = Object.entries(firstThemeColors)
-    .map(([key, hex]) => `  --color-${key}: ${hexToHsl(hex)};`)
+    .map(([key, hex]) => `  --color-${camelToKebab(key)}: ${hexToHsl(hex)};`)
     .join("\n");
 
   const otherThemes = entries.slice(1).map(([themeName, colors]) => {
     const variables = Object.entries(colors)
-      .map(([key, hex]) => `  --color-${key}: ${hexToHsl(hex)};`)
+      .map(([key, hex]) => `  --color-${camelToKebab(key)}: ${hexToHsl(hex)};`)
       .join("\n");
     return `[data-theme="${themeName}"] {\n${variables}\n}`;
   });

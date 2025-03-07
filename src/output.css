@@ -1,4 +1,4 @@
-/*! tailwindcss v4.0.11 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.0.12 | MIT License | https://tailwindcss.com */
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -19,47 +19,49 @@
     --default-mono-font-family: Courier New, monospace;
     --default-mono-font-feature-settings: normal;
     --default-mono-font-variation-settings: normal;
-    --color-background: hsl(0, 0%, 100%);
-    --color-foreground: hsl(24, 10%, 10%);
-    --color-muted: hsl(60, 5%, 96%);
-    --color-muted-foreground: hsl(25, 5%, 45%);
-    --color-card: hsl(0, 0%, 100%);
-    --color-card-foreground: hsl(20, 14%, 4%);
-    --color-popover: hsl(0, 0%, 100%);
-    --color-popover-foreground: hsl(20, 14%, 4%);
-    --color-border: hsl(20, 6%, 90%);
-    --color-input: hsl(20, 6%, 90%);
-    --color-primary: hsl(12, 6%, 15%);
-    --color-primary-foreground: hsl(60, 9%, 98%);
-    --color-secondary: hsl(60, 5%, 96%);
-    --color-secondary-foreground: hsl(12, 6%, 15%);
-    --color-accent: hsl(60, 5%, 96%);
-    --color-accent-foreground: hsl(12, 6%, 15%);
-    --color-destructive: hsl(0, 72%, 51%);
-    --color-destructive-foreground: hsl(60, 9%, 98%);
-    --color-ring: hsl(25, 5%, 45%);
-    --color-hover-primary: hsl(30, 6%, 25%);
-    --color-hover-secondary: hsl(20, 6%, 90%);
-    --color-hover-destructive: hsl(0, 84%, 60%);
-    --color-success: hsl(142, 76%, 36%);
-    --color-hover-succes: hsl(142, 72%, 29%);
-    --color-border-destructive-50: hsl(0, 96%, 89%);
-    --color-bg-destructive-10: hsl(0, 72%, 51%);
-    --color-hover-destructive-20: hsl(0, 72%, 51%);
-    --color-bg-muted-50: hsl(210, 40%, 96%);
-    --color-bg-accent-50: hsl(210, 40%, 96%);
-    --color-bg-muted-40: hsl(210, 40%, 96%);
-    --color-border-muted-40: hsl(210, 40%, 96%);
-    --color-sidebar-background: hsl(60, 9%, 98%);
-    --color-sidebar-foreground: hsl(30, 6%, 25%);
-    --color-sidebar-primary: hsl(24, 10%, 10%);
-    --color-sidebar-primary-foreground: hsl(60, 9%, 98%);
-    --color-sidebar-accent: hsl(60, 5%, 96%);
-    --color-sidebar-accent-foreground: hsl(24, 10%, 10%);
-    --color-sidebar-border: hsl(20, 6%, 90%);
-    --color-sidebar-ring: hsl(24, 5%, 64%);
-    --color-sidebar-foreground-70: hsl(215, 25%, 27%);
+    --color-sc-color-background: hsl(0, 0%, 100%);
+    --color-sc-color-foreground: hsl(24, 10%, 10%);
+    --color-sc-color-muted: hsl(60, 5%, 96%);
+    --color-sc-color-muted-foreground: hsl(25, 5%, 45%);
+    --color-sc-color-card: hsl(0, 0%, 100%);
+    --color-sc-color-card-foreground: hsl(20, 14%, 4%);
+    --color-sc-color-popover: hsl(0, 0%, 100%);
+    --color-sc-color-popover-foreground: hsl(20, 14%, 4%);
+    --color-sc-color-border: hsl(20, 6%, 90%);
+    --color-sc-color-input: hsl(20, 6%, 90%);
+    --color-sc-color-primary: hsl(12, 6%, 15%);
+    --color-sc-color-primary-foreground: hsl(60, 9%, 98%);
+    --color-sc-color-secondary: hsl(60, 5%, 96%);
+    --color-sc-color-secondary-foreground: hsl(12, 6%, 15%);
+    --color-sc-color-accent: hsl(60, 5%, 96%);
+    --color-sc-color-accent-foreground: hsl(12, 6%, 15%);
+    --color-sc-color-destructive: hsl(26, 90%, 37%);
+    --color-sc-color-destructive-foreground: hsl(60, 9%, 98%);
+    --color-sc-color-ring: hsl(25, 5%, 45%);
+    --color-sc-color-hover-primary: hsl(30, 6%, 25%);
+    --color-sc-color-hover-secondary: hsl(20, 6%, 90%);
+    --color-sc-color-hover-destructive: hsl(32, 95%, 44%);
+    --color-sc-color-success: hsl(142, 76%, 36%);
+    --color-sc-color-hover-succes: hsl(142, 72%, 29%);
+    --color-sc-color-border-destructive50: hsl(0, 96%, 89%);
+    --color-sc-color-bg-destructive10: hsl(0, 72%, 51%);
+    --color-sc-color-hover-destructive20: hsl(0, 72%, 51%);
+    --color-sc-color-bg-muted50: hsl(210, 40%, 96%);
+    --color-sc-color-bg-accent50: hsl(210, 40%, 96%);
+    --color-sc-color-bg-muted40: hsl(210, 40%, 96%);
+    --color-sc-color-border-muted40: hsl(210, 40%, 96%);
+    --color-sc-color-sidebar-background: hsl(60, 9%, 98%);
+    --color-sc-color-sidebar-foreground: hsl(30, 6%, 25%);
+    --color-sc-color-sidebar-primary: hsl(24, 10%, 10%);
+    --color-sc-color-sidebar-primary-foreground: hsl(60, 9%, 98%);
+    --color-sc-color-sidebar-accent: hsl(60, 5%, 96%);
+    --color-sc-color-sidebar-accent-foreground: hsl(24, 10%, 10%);
+    --color-sc-color-sidebar-border: hsl(20, 6%, 90%);
+    --color-sc-color-sidebar-ring: hsl(24, 5%, 64%);
+    --color-sc-color-sidebar-foreground70: hsl(30, 6%, 25%);
     --color-neon-green: hsl(81, 96%, 55%);
+    --color-sc-color-menu-backdrop: hsl(24, 10%, 10%);
+    --color-sc-color-image-backdrop: hsl(24, 10%, 10%);
   }
 }
 @layer base {
@@ -213,6 +215,90 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .text-body-large {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: undefinedpx;
+    text-indent: undefinedpx;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 300;
+      font-size: 18px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 300;
+      font-size: 18px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 300;
+      font-size: 18px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+  }
+  .text-body-medium {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: undefinedpx;
+    text-indent: undefinedpx;
+    line-height: 120%;
+    @media (min-width: 768px) {
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+  }
+  .text-body-small {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: undefinedpx;
+    text-indent: undefinedpx;
+    line-height: 120%;
+    @media (min-width: undefined) {
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+    @media (min-width: 1440px) {
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+    @media (min-width: 2560px) {
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
+      line-height: 120%;
+    }
+  }
   .text-heading-h1 {
     font-weight: 300;
     font-size: 28px;
@@ -269,219 +355,87 @@
       line-height: 120%;
     }
   }
-  .text-body-book {
-    font-size: 14px;
-    margin-bottom: 10px;
-    text-indent: 32px;
-    line-height: 120%;
-    @media (min-width: 768px) {
-      font-weight: 450;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 1440px) {
-      font-weight: 450;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 2560px) {
-      font-weight: 450;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-  }
-  .text-body-light {
-    font-size: 14px;
-    margin-bottom: 10px;
-    text-indent: 32px;
-    line-height: 120%;
-    @media (min-width: 768px) {
-      font-weight: 300;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 1440px) {
-      font-weight: 300;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 2560px) {
-      font-weight: 300;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-  }
-  .text-body-medium {
-    font-size: 14px;
-    margin-bottom: 10px;
-    text-indent: 32px;
-    line-height: 120%;
-    @media (min-width: 768px) {
-      font-weight: 500;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 1440px) {
-      font-weight: 500;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 2560px) {
-      font-weight: 500;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-  }
-  .text-body-regular {
-    font-size: 14px;
-    margin-bottom: 10px;
-    text-indent: 32px;
-    line-height: 120%;
-    @media (min-width: 768px) {
-      font-weight: 400;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 1440px) {
-      font-weight: 400;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-    @media (min-width: 2560px) {
-      font-weight: 400;
-      font-size: 14px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-  }
   .text-heading-h3 {
+    font-weight: 300;
     font-size: 20px;
-    margin-bottom: 24px;
-    text-indent: 0px;
+    margin-bottom: undefinedpx;
+    text-indent: undefinedpx;
     line-height: 120%;
     @media (min-width: 768px) {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 24px;
-      margin-bottom: 24px;
-      text-indent: 0px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
     @media (min-width: 1440px) {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 32px;
-      margin-bottom: 24px;
-      text-indent: 0px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
     @media (min-width: 2560px) {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 36px;
-      margin-bottom: 24px;
-      text-indent: 0px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
   }
-  .text-large {
+  .text-heading-h4 {
+    font-weight: 300;
     font-size: 18px;
-    margin-bottom: 10px;
-    text-indent: 0px;
+    margin-bottom: undefinedpx;
+    text-indent: undefinedpx;
     line-height: 120%;
     @media (min-width: 768px) {
-      font-weight: 400;
-      font-size: 18px;
-      margin-bottom: 10px;
-      text-indent: 0px;
+      font-weight: 300;
+      font-size: 20px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
     @media (min-width: 1440px) {
-      font-weight: 400;
-      font-size: 18px;
-      margin-bottom: 10px;
-      text-indent: 0px;
+      font-weight: 300;
+      font-size: 24px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
     @media (min-width: 2560px) {
-      font-weight: 400;
-      font-size: 18px;
-      margin-bottom: 10px;
-      text-indent: 0px;
+      font-weight: 300;
+      font-size: 30px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
   }
   .text-lead {
+    font-weight: 300;
     font-size: 24px;
-    margin-bottom: 10px;
-    text-indent: 32px;
+    margin-bottom: undefinedpx;
+    text-indent: undefinedpx;
     line-height: 120%;
     @media (min-width: 768px) {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 24px;
-      margin-bottom: 10px;
-      text-indent: 32px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
     @media (min-width: 1440px) {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 24px;
-      margin-bottom: 10px;
-      text-indent: 32px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
     @media (min-width: 2560px) {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 24px;
-      margin-bottom: 10px;
-      text-indent: 32px;
-      line-height: 120%;
-    }
-  }
-  .text-p {
-    font-size: 16px;
-    margin-bottom: 10px;
-    text-indent: 0px;
-    line-height: 120%;
-    @media (min-width: 768px) {
-      font-weight: 400;
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-indent: 0px;
-      line-height: 120%;
-    }
-    @media (min-width: 1440px) {
-      font-weight: 400;
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-indent: 0px;
-      line-height: 120%;
-    }
-    @media (min-width: 2560px) {
-      font-weight: 400;
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-indent: 0px;
+      margin-bottom: undefinedpx;
+      text-indent: undefinedpx;
       line-height: 120%;
     }
   }
@@ -531,23 +485,23 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-background {
-    background-color: var(--color-background);
+  .bg-sc-color-background {
+    background-color: var(--color-sc-color-background);
   }
-  .bg-muted {
-    background-color: var(--color-muted);
+  .bg-sc-color-primary {
+    background-color: var(--color-sc-color-primary);
   }
-  .bg-primary {
-    background-color: var(--color-primary);
-  }
-  .bg-secondary {
-    background-color: var(--color-secondary);
+  .bg-sc-color-secondary {
+    background-color: var(--color-sc-color-secondary);
   }
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
+  }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
   }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
@@ -560,6 +514,9 @@
   }
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
+  }
+  .pt-2 {
+    padding-top: calc(var(--spacing) * 2);
   }
   .pt-2\.5 {
     padding-top: calc(var(--spacing) * 2.5);
@@ -606,14 +563,14 @@
     --tw-font-weight: 300;
     font-weight: 300;
   }
-  .text-foreground {
-    color: var(--color-foreground);
+  .text-sc-color-background {
+    color: var(--color-sc-color-background);
   }
-  .text-primary-foreground {
-    color: var(--color-primary-foreground);
+  .text-sc-color-foreground {
+    color: var(--color-sc-color-foreground);
   }
-  .text-secondary-foreground {
-    color: var(--color-secondary-foreground);
+  .text-sc-color-secondary-foreground {
+    color: var(--color-sc-color-secondary-foreground);
   }
   .oldstyle-nums {
     --tw-numeric-figure: oldstyle-nums;
@@ -625,12 +582,6 @@
   }
   .underline {
     text-decoration-line: underline;
-  }
-  .accent-accent {
-    accent-color: var(--color-accent);
-  }
-  .accent-foreground {
-    accent-color: var(--color-foreground);
   }
   .ring {
     --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
@@ -644,17 +595,17 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
-  .hover\:bg-hover-primary {
+  .hover\:bg-sc-color-hover-primary {
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-hover-primary);
+        background-color: var(--color-sc-color-hover-primary);
       }
     }
   }
-  .hover\:bg-hover-secondary {
+  .hover\:bg-sc-color-hover-secondary {
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-hover-secondary);
+        background-color: var(--color-sc-color-hover-secondary);
       }
     }
   }
@@ -664,9 +615,9 @@
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
-  .focus\:ring-ring {
+  .focus\:ring-sc-color-ring {
     &:focus {
-      --tw-ring-color: var(--color-ring);
+      --tw-ring-color: var(--color-sc-color-ring);
     }
   }
   .md\:sticky {
@@ -680,136 +631,140 @@
     }
   }
 }
-@layer theme {
-  [data-theme="dark-pro"] {
-    --color-background: hsl(20, 14%, 4%);
-    --color-foreground: hsl(60, 9%, 98%);
-    --color-muted: hsl(12, 6%, 15%);
-    --color-muted-foreground: hsl(24, 5%, 64%);
-    --color-card: hsl(20, 14%, 4%);
-    --color-card-foreground: hsl(60, 9%, 98%);
-    --color-popover: hsl(20, 14%, 4%);
-    --color-popover-foreground: hsl(60, 9%, 98%);
-    --color-border: hsl(30, 6%, 25%);
-    --color-input: hsl(30, 6%, 25%);
-    --color-primary: hsl(60, 9%, 98%);
-    --color-primary-foreground: hsl(24, 10%, 10%);
-    --color-secondary: hsl(12, 6%, 15%);
-    --color-secondary-foreground: hsl(60, 9%, 98%);
-    --color-accent: hsl(12, 6%, 15%);
-    --color-accent-foreground: hsl(60, 9%, 98%);
-    --color-destructive: hsl(0, 63%, 31%);
-    --color-destructive-foreground: hsl(60, 9%, 98%);
-    --color-ring: hsl(24, 5%, 64%);
-    --color-hover-primary: hsl(60, 5%, 96%);
-    --color-hover-secondary: hsl(30, 6%, 25%);
-    --color-hover-destructive: hsl(0, 70%, 35%);
-    --color-success: hsl(142, 71%, 45%);
-    --color-hover-succes: hsl(142, 76%, 36%);
-    --color-border-destructive-50: hsl(0, 63%, 31%);
-    --color-bg-destructive-10: hsl(0, 63%, 31%);
-    --color-hover-destructive-20: hsl(0, 63%, 31%);
-    --color-bg-muted-50: hsl(217, 33%, 17%);
-    --color-bg-accent-50: hsl(217, 33%, 17%);
-    --color-bg-muted-40: hsl(217, 33%, 17%);
-    --color-border-muted-40: hsl(217, 33%, 17%);
-    --color-sidebar-background: hsl(24, 10%, 10%);
-    --color-sidebar-foreground: hsl(60, 5%, 96%);
-    --color-sidebar-primary: hsl(224, 76%, 48%);
-    --color-sidebar-primary-foreground: hsl(0, 0%, 100%);
-    --color-sidebar-accent: hsl(12, 6%, 15%);
-    --color-sidebar-accent-foreground: hsl(60, 5%, 96%);
-    --color-sidebar-border: hsl(12, 6%, 15%);
-    --color-sidebar-ring: hsl(24, 6%, 83%);
-    --color-sidebar-foreground-70: hsl(210, 40%, 96%);
-    --color-neon-green: hsl(81, 96%, 55%);
-  }
-  [data-theme="light-galeria"] {
-    --color-background: hsl(0, 0%, 100%);
-    --color-foreground: hsl(12, 6%, 15%);
-    --color-muted: hsl(240, 5%, 96%);
-    --color-muted-foreground: hsl(240, 4%, 46%);
-    --color-card: hsl(0, 0%, 100%);
-    --color-card-foreground: hsl(240, 10%, 4%);
-    --color-popover: hsl(0, 0%, 100%);
-    --color-popover-foreground: hsl(240, 10%, 4%);
-    --color-border: hsl(240, 6%, 90%);
-    --color-input: hsl(240, 6%, 90%);
-    --color-primary: hsl(30, 6%, 25%);
-    --color-primary-foreground: hsl(60, 5%, 96%);
-    --color-secondary: hsl(240, 5%, 96%);
-    --color-secondary-foreground: hsl(30, 6%, 25%);
-    --color-accent: hsl(240, 5%, 96%);
-    --color-accent-foreground: hsl(24, 10%, 10%);
-    --color-destructive: hsl(0, 72%, 51%);
-    --color-destructive-foreground: hsl(0, 0%, 98%);
-    --color-ring: hsl(240, 4%, 46%);
-    --color-hover-primary: hsl(33, 5%, 32%);
-    --color-hover-secondary: hsl(20, 6%, 90%);
-    --color-hover-destructive: hsl(0, 84%, 60%);
-    --color-success: hsl(142, 76%, 36%);
-    --color-hover-succes: hsl(142, 72%, 29%);
-    --color-border-destructive-50: hsl(0, 96%, 89%);
-    --color-bg-destructive-10: hsl(0, 72%, 51%);
-    --color-hover-destructive-20: hsl(0, 72%, 51%);
-    --color-bg-muted-50: hsl(240, 5%, 96%);
-    --color-bg-accent-50: hsl(240, 5%, 96%);
-    --color-bg-muted-40: hsl(240, 5%, 96%);
-    --color-border-muted-40: hsl(240, 5%, 96%);
-    --color-sidebar-background: hsl(0, 0%, 98%);
-    --color-sidebar-foreground: hsl(240, 5%, 26%);
-    --color-sidebar-primary: hsl(240, 6%, 10%);
-    --color-sidebar-primary-foreground: hsl(0, 0%, 98%);
-    --color-sidebar-accent: hsl(240, 5%, 96%);
-    --color-sidebar-accent-foreground: hsl(240, 6%, 10%);
-    --color-sidebar-border: hsl(240, 6%, 90%);
-    --color-sidebar-ring: hsl(240, 5%, 65%);
-    --color-sidebar-foreground-70: hsl(240, 5%, 26%);
-    --color-neon-green: hsl(81, 96%, 55%);
-  }
-  [data-theme="4th"] {
-    --color-background: hsl(0, 0%, 100%);
-    --color-foreground: hsl(23, 83%, 31%);
-    --color-muted: hsl(48, 96%, 89%);
-    --color-muted-foreground: hsl(21, 92%, 14%);
-    --color-card: hsl(0, 0%, 100%);
-    --color-card-foreground: hsl(22, 78%, 26%);
-    --color-popover: hsl(0, 0%, 100%);
-    --color-popover-foreground: hsl(22, 78%, 26%);
-    --color-border: hsl(20, 6%, 90%);
-    --color-input: hsl(20, 6%, 90%);
-    --color-primary: hsl(23, 83%, 31%);
-    --color-primary-foreground: hsl(60, 9%, 98%);
-    --color-secondary: hsl(48, 100%, 96%);
-    --color-secondary-foreground: hsl(22, 78%, 26%);
-    --color-accent: hsl(48, 100%, 96%);
-    --color-accent-foreground: hsl(22, 78%, 26%);
-    --color-destructive: hsl(0, 72%, 51%);
-    --color-destructive-foreground: hsl(60, 9%, 98%);
-    --color-ring: hsl(25, 5%, 45%);
-    --color-hover-primary: hsl(26, 90%, 37%);
-    --color-hover-secondary: hsl(48, 96%, 89%);
-    --color-hover-destructive: hsl(0, 84%, 60%);
-    --color-success: hsl(142, 76%, 36%);
-    --color-hover-succes: hsl(142, 72%, 29%);
-    --color-border-destructive-50: hsl(0, 96%, 89%);
-    --color-bg-destructive-10: hsl(0, 72%, 51%);
-    --color-hover-destructive-20: hsl(0, 72%, 51%);
-    --color-bg-muted-50: hsl(210, 40%, 96%);
-    --color-bg-accent-50: hsl(210, 40%, 96%);
-    --color-bg-muted-40: hsl(210, 40%, 96%);
-    --color-border-muted-40: hsl(210, 40%, 96%);
-    --color-sidebar-background: hsl(60, 9%, 98%);
-    --color-sidebar-foreground: hsl(30, 6%, 25%);
-    --color-sidebar-primary: hsl(24, 10%, 10%);
-    --color-sidebar-primary-foreground: hsl(60, 9%, 98%);
-    --color-sidebar-accent: hsl(60, 5%, 96%);
-    --color-sidebar-accent-foreground: hsl(24, 10%, 10%);
-    --color-sidebar-border: hsl(20, 6%, 90%);
-    --color-sidebar-ring: hsl(24, 5%, 64%);
-    --color-sidebar-foreground-70: hsl(215, 25%, 27%);
-    --color-neon-green: hsl(81, 96%, 55%);
-  }
+[data-theme="darkPro"] {
+  --color-sc-color-background: hsl(20, 14%, 4%);
+  --color-sc-color-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-muted: hsl(12, 6%, 15%);
+  --color-sc-color-muted-foreground: hsl(24, 5%, 64%);
+  --color-sc-color-card: hsl(20, 14%, 4%);
+  --color-sc-color-card-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-popover: hsl(20, 14%, 4%);
+  --color-sc-color-popover-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-border: hsl(30, 6%, 25%);
+  --color-sc-color-input: hsl(30, 6%, 25%);
+  --color-sc-color-primary: hsl(60, 9%, 98%);
+  --color-sc-color-primary-foreground: hsl(24, 10%, 10%);
+  --color-sc-color-secondary: hsl(12, 6%, 15%);
+  --color-sc-color-secondary-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-accent: hsl(12, 6%, 15%);
+  --color-sc-color-accent-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-destructive: hsl(0, 63%, 31%);
+  --color-sc-color-destructive-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-ring: hsl(24, 5%, 64%);
+  --color-sc-color-hover-primary: hsl(60, 5%, 96%);
+  --color-sc-color-hover-secondary: hsl(30, 6%, 25%);
+  --color-sc-color-hover-destructive: hsl(0, 70%, 35%);
+  --color-sc-color-success: hsl(142, 71%, 45%);
+  --color-sc-color-hover-succes: hsl(142, 76%, 36%);
+  --color-sc-color-border-destructive50: hsl(0, 63%, 31%);
+  --color-sc-color-bg-destructive10: hsl(0, 63%, 31%);
+  --color-sc-color-hover-destructive20: hsl(0, 63%, 31%);
+  --color-sc-color-bg-muted50: hsl(217, 33%, 17%);
+  --color-sc-color-bg-accent50: hsl(217, 33%, 17%);
+  --color-sc-color-bg-muted40: hsl(217, 33%, 17%);
+  --color-sc-color-border-muted40: hsl(217, 33%, 17%);
+  --color-sc-color-sidebar-background: hsl(24, 10%, 10%);
+  --color-sc-color-sidebar-foreground: hsl(60, 5%, 96%);
+  --color-sc-color-sidebar-primary: hsl(224, 76%, 48%);
+  --color-sc-color-sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --color-sc-color-sidebar-accent: hsl(12, 6%, 15%);
+  --color-sc-color-sidebar-accent-foreground: hsl(60, 5%, 96%);
+  --color-sc-color-sidebar-border: hsl(12, 6%, 15%);
+  --color-sc-color-sidebar-ring: hsl(24, 6%, 83%);
+  --color-sc-color-sidebar-foreground70: hsl(210, 40%, 96%);
+  --color-neon-green: hsl(81, 96%, 55%);
+  --color-sc-color-menu-backdrop: hsl(60, 9%, 98%);
+  --color-sc-color-image-backdrop: hsl(24, 10%, 10%);
+}
+[data-theme="lightGaleria"] {
+  --color-sc-color-background: hsl(0, 0%, 100%);
+  --color-sc-color-foreground: hsl(12, 6%, 15%);
+  --color-sc-color-muted: hsl(240, 5%, 96%);
+  --color-sc-color-muted-foreground: hsl(240, 4%, 46%);
+  --color-sc-color-card: hsl(0, 0%, 100%);
+  --color-sc-color-card-foreground: hsl(240, 10%, 4%);
+  --color-sc-color-popover: hsl(0, 0%, 100%);
+  --color-sc-color-popover-foreground: hsl(240, 10%, 4%);
+  --color-sc-color-border: hsl(240, 6%, 90%);
+  --color-sc-color-input: hsl(240, 6%, 90%);
+  --color-sc-color-primary: hsl(30, 6%, 25%);
+  --color-sc-color-primary-foreground: hsl(60, 5%, 96%);
+  --color-sc-color-secondary: hsl(240, 5%, 96%);
+  --color-sc-color-secondary-foreground: hsl(30, 6%, 25%);
+  --color-sc-color-accent: hsl(240, 5%, 96%);
+  --color-sc-color-accent-foreground: hsl(24, 10%, 10%);
+  --color-sc-color-destructive: hsl(0, 72%, 51%);
+  --color-sc-color-destructive-foreground: hsl(0, 0%, 98%);
+  --color-sc-color-ring: hsl(240, 4%, 46%);
+  --color-sc-color-hover-primary: hsl(33, 5%, 32%);
+  --color-sc-color-hover-secondary: hsl(20, 6%, 90%);
+  --color-sc-color-hover-destructive: hsl(0, 84%, 60%);
+  --color-sc-color-success: hsl(142, 76%, 36%);
+  --color-sc-color-hover-succes: hsl(142, 72%, 29%);
+  --color-sc-color-border-destructive50: hsl(0, 96%, 89%);
+  --color-sc-color-bg-destructive10: hsl(0, 72%, 51%);
+  --color-sc-color-hover-destructive20: hsl(0, 72%, 51%);
+  --color-sc-color-bg-muted50: hsl(240, 5%, 96%);
+  --color-sc-color-bg-accent50: hsl(240, 5%, 96%);
+  --color-sc-color-bg-muted40: hsl(240, 5%, 96%);
+  --color-sc-color-border-muted40: hsl(240, 5%, 96%);
+  --color-sc-color-sidebar-background: hsl(0, 0%, 98%);
+  --color-sc-color-sidebar-foreground: hsl(240, 5%, 26%);
+  --color-sc-color-sidebar-primary: hsl(240, 6%, 10%);
+  --color-sc-color-sidebar-primary-foreground: hsl(0, 0%, 98%);
+  --color-sc-color-sidebar-accent: hsl(240, 5%, 96%);
+  --color-sc-color-sidebar-accent-foreground: hsl(240, 6%, 10%);
+  --color-sc-color-sidebar-border: hsl(240, 6%, 90%);
+  --color-sc-color-sidebar-ring: hsl(240, 5%, 65%);
+  --color-sc-color-sidebar-foreground70: hsl(240, 5%, 26%);
+  --color-neon-green: hsl(81, 96%, 55%);
+  --color-sc-color-menu-backdrop: hsl(12, 6%, 15%);
+  --color-sc-color-image-backdrop: hsl(24, 10%, 10%);
+}
+[data-theme="4th"] {
+  --color-sc-color-background: hsl(0, 0%, 100%);
+  --color-sc-color-foreground: hsl(23, 83%, 31%);
+  --color-sc-color-muted: hsl(48, 96%, 89%);
+  --color-sc-color-muted-foreground: hsl(21, 92%, 14%);
+  --color-sc-color-card: hsl(0, 0%, 100%);
+  --color-sc-color-card-foreground: hsl(22, 78%, 26%);
+  --color-sc-color-popover: hsl(0, 0%, 100%);
+  --color-sc-color-popover-foreground: hsl(22, 78%, 26%);
+  --color-sc-color-border: hsl(20, 6%, 90%);
+  --color-sc-color-input: hsl(20, 6%, 90%);
+  --color-sc-color-primary: hsl(23, 83%, 31%);
+  --color-sc-color-primary-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-secondary: hsl(48, 100%, 96%);
+  --color-sc-color-secondary-foreground: hsl(22, 78%, 26%);
+  --color-sc-color-accent: hsl(48, 100%, 96%);
+  --color-sc-color-accent-foreground: hsl(22, 78%, 26%);
+  --color-sc-color-destructive: hsl(0, 72%, 51%);
+  --color-sc-color-destructive-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-ring: hsl(25, 5%, 45%);
+  --color-sc-color-hover-primary: hsl(26, 90%, 37%);
+  --color-sc-color-hover-secondary: hsl(48, 96%, 89%);
+  --color-sc-color-hover-destructive: hsl(0, 84%, 60%);
+  --color-sc-color-success: hsl(142, 76%, 36%);
+  --color-sc-color-hover-succes: hsl(142, 72%, 29%);
+  --color-sc-color-border-destructive50: hsl(0, 96%, 89%);
+  --color-sc-color-bg-destructive10: hsl(0, 72%, 51%);
+  --color-sc-color-hover-destructive20: hsl(0, 72%, 51%);
+  --color-sc-color-bg-muted50: hsl(210, 40%, 96%);
+  --color-sc-color-bg-accent50: hsl(210, 40%, 96%);
+  --color-sc-color-bg-muted40: hsl(210, 40%, 96%);
+  --color-sc-color-border-muted40: hsl(210, 40%, 96%);
+  --color-sc-color-sidebar-background: hsl(60, 9%, 98%);
+  --color-sc-color-sidebar-foreground: hsl(30, 6%, 25%);
+  --color-sc-color-sidebar-primary: hsl(24, 10%, 10%);
+  --color-sc-color-sidebar-primary-foreground: hsl(60, 9%, 98%);
+  --color-sc-color-sidebar-accent: hsl(60, 5%, 96%);
+  --color-sc-color-sidebar-accent-foreground: hsl(24, 10%, 10%);
+  --color-sc-color-sidebar-border: hsl(20, 6%, 90%);
+  --color-sc-color-sidebar-ring: hsl(24, 5%, 64%);
+  --color-sc-color-sidebar-foreground70: hsl(30, 6%, 25%);
+  --color-neon-green: hsl(81, 96%, 55%);
+  --color-sc-color-menu-backdrop: hsl(24, 10%, 10%);
+  --color-sc-color-image-backdrop: hsl(24, 10%, 10%);
 }
 @layer base {
   @font-face {
@@ -877,7 +832,7 @@
     align-items: center;
     justify-content: center;
     border-radius: calc(0.5rem - 2px);
-    background-color: var(--color-primary);
+    background-color: var(--color-sc-color-primary);
     padding-inline: calc(var(--spacing) * 3);
     padding-block: calc(var(--spacing) * 2);
     font-family: 'Suisse Int\'l', sans-serif;
@@ -887,12 +842,12 @@
     line-height: calc(var(--spacing) * 6);
     --tw-font-weight: var(--font-weight-light);
     font-weight: var(--font-weight-light);
-    color: var(--color-primary-foreground);
+    color: var(--color-sc-color-background);
     --tw-ring-offset-width: 2px;
     --tw-ring-offset-shadow: var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-hover-primary);
+        background-color: var(--color-sc-color-hover-primary);
       }
     }
     &:focus {
@@ -900,15 +855,12 @@
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
     &:focus {
-      --tw-ring-color: var(--color-ring);
-    }
-    @media (prefers-color-scheme: dark) {
-      --tw-ring-offset-color: var(--color-background);
+      --tw-ring-color: var(--color-sc-color-ring);
     }
   }
   .btn-secondary {
     border-radius: calc(0.5rem - 2px);
-    background-color: var(--color-secondary);
+    background-color: var(--color-sc-color-secondary);
     padding-inline: calc(var(--spacing) * 3);
     padding-block: calc(var(--spacing) * 2);
     padding-top: calc(var(--spacing) * 2.5);
@@ -918,14 +870,14 @@
     line-height: 1;
     --tw-font-weight: 400;
     font-weight: 400;
-    color: var(--color-secondary-foreground);
+    color: var(--color-sc-color-secondary-foreground);
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-hover-secondary);
+        background-color: var(--color-sc-color-hover-secondary);
       }
     }
     &:focus {
-      --tw-ring-color: var(--color-ring);
+      --tw-ring-color: var(--color-sc-color-ring);
     }
   }
   .btn-xs {

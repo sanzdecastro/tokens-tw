@@ -71,7 +71,7 @@
         "scTypographyTextBodySmParagraphSpacing": 10,
         "scTypographyTextBodySmIndent": 0,
         "scTypographyTextBodySmFontVariantNumeric": "oldstyle-nums proportional-nums",
-        "scTypographyTextBodySmFontFeatureSettings": "String value"
+        "scTypographyTextBodySmFontFeatureSettings": "String value",
         "scTypographyHeadingH1FontWeight": 300,
         "scTypographyHeadingH1FontSize": 28,
         "scTypographyHeadingH1ParagraphSpacing": 32,
@@ -217,7 +217,7 @@
         "scTypographyTextBodySmParagraphSpacing": 10,
         "scTypographyTextBodySmIndent": 0,
         "scTypographyTextBodySmFontVariantNumeric": "oldstyle-nums proportional-nums",
-        "scTypographyTextBodySmFontFeatureSettings": "String value"
+        "scTypographyTextBodySmFontFeatureSettings": "String value",
         "scTypographyHeadingH1FontWeight": 300,
         "scTypographyHeadingH1FontSize": 32,
         "scTypographyHeadingH1ParagraphSpacing": 24,
@@ -363,7 +363,7 @@
         "scTypographyTextBodySmParagraphSpacing": 10,
         "scTypographyTextBodySmIndent": 0,
         "scTypographyTextBodySmFontVariantNumeric": "oldstyle-nums proportional-nums",
-        "scTypographyTextBodySmFontFeatureSettings": "String value"
+        "scTypographyTextBodySmFontFeatureSettings": "String value",
         "scTypographyHeadingH1FontWeight": 300,
         "scTypographyHeadingH1FontSize": 48,
         "scTypographyHeadingH1ParagraphSpacing": 24,

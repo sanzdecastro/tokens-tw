@@ -45,17 +45,17 @@ function generateCss(themes) {
   const firstThemeColors = entries[0][1];
 
   const rootVariables = Object.entries(firstThemeColors)
-    .map(([key, hex]) => `  --${key}: ${hexToHsl(hex)};`)
+    .map(([key, hex]) => `  --color-${key}: ${hexToHsl(hex)};`)
     .join("\n");
 
   const otherThemes = entries.slice(1).map(([themeName, colors]) => {
     const variables = Object.entries(colors)
-      .map(([key, hex]) => `  --${key}: ${hexToHsl(hex)};`)
+      .map(([key, hex]) => `  --color-${key}: ${hexToHsl(hex)};`)
       .join("\n");
     return `[data-theme="${themeName}"] {\n${variables}\n}`;
   });
 
-  return `:root {\n${rootVariables}\n}\n\n${otherThemes.join("\n\n")}`;
+  return `@theme {\n${rootVariables}\n}\n\n${otherThemes.join("\n\n")}`;
 }
 
 // Convierte los temas a CSS

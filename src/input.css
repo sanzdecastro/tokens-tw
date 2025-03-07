@@ -3,7 +3,7 @@
 
 
 /* @import './parts/letter-spacing.css' layer(base); */
-@import './parts/themes.css' layer(base);
+@import './parts/themes.css' layer(theme);
 @import './parts/font-face.css' layer(base);
 
 @import './components/buttons.css' layer(components);

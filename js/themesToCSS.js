@@ -44,7 +44,7 @@ function camelToKebab(str) {
 }
 
 // Genera CSS a partir del JSON
-function generateCss(themes) {
+function generateThemesCss(themes) {
   const entries = Object.entries(themes);
   const firstThemeName = entries[0][0];
   const firstThemeColors = entries[0][1];
@@ -64,7 +64,7 @@ function generateCss(themes) {
 }
 
 // Convierte los temas a CSS
-const cssOutput = generateCss(themes);
+const cssOutput = generateThemesCss(themes);
 
 // Escribe el CSS en un archivo
 fs.writeFileSync("./src/parts/themes.css", cssOutput, "utf8");

@@ -1,7 +1,8 @@
 {
   "scripts": {
     "themes-to-css": "node js/themesToCSS.js",
-    "dev": "npm run themes-to-css && npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "spacing-to-css": "node js/spacingToCSS.js",
+    "dev": "npm run themes-to-css && npm run spacing-to-css && npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
     "build": "npm run themes-to-css && npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {

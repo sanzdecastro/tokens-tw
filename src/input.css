@@ -3,7 +3,10 @@
 
 
 /* @import './parts/letter-spacing.css' layer(base); */
+@import './parts/breakpoints.css';
 @import './parts/themes.css';
+@import './parts/spacing.css';
+
 @import './parts/font-face.css' layer(base);
 
 @import './components/buttons.css' layer(components);

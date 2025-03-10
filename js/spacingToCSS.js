@@ -8,9 +8,9 @@ function camelToKebab(str) {
 
 // Mapeo de breakpoints (excluimos mobile, que es el valor base)
 const breakpointMapping = {
-  tablet: "768px",
-  desktop: "1440px",
-  bigDesktop: "2560px"
+  tablet: "md",
+  desktop: "lg",
+  bigDesktop: "xl"
 };
 
 function generateThemeVariables(spacing) {
@@ -35,7 +35,7 @@ function generateThemeVariables(spacing) {
       if (spacing[bp] && spacing[bp][key] !== undefined) {
         const bpValue = spacing[bp][key];
         const bpMedia = breakpointMapping[bp];
-        rootBlock += `  @media (min-width: ${bpMedia}){\n    ${varName}: ${bpValue}px;\n  }\n`;
+        rootBlock += `  @variant ${bpMedia}{\n    ${varName}: ${bpValue}px;\n  }\n`;
       }
     }
     

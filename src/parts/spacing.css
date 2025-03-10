@@ -18,167 +18,167 @@
 
 :root {
   --spacing-sc-spacing-padding-sm: 16px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-spacing-padding-sm: 20px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-spacing-padding-sm: 24px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-spacing-padding-sm: 40px;
   }
 
   --spacing-sc-spacing-padding-md: 24px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-spacing-padding-md: 32px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-spacing-padding-md: 40px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-spacing-padding-md: 56px;
   }
 
   --spacing-sc-spacing-padding-lg: 32px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-spacing-padding-lg: 48px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-spacing-padding-lg: 64px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-spacing-padding-lg: 80px;
   }
 
   --spacing-sc-spacing-padding-xl: 64px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-spacing-padding-xl: 80px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-spacing-padding-xl: 96px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-spacing-padding-xl: 112px;
   }
 
   --spacing-sc-spacing-padding-none: 0px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-spacing-padding-none: 0px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-spacing-padding-none: 0px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-spacing-padding-none: 0px;
   }
 
   --spacing-sc-layout-grid-width-sidebar: 375px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-width-sidebar: 375px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-width-sidebar: 576px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-width-sidebar: 576px;
   }
 
   --spacing-sc-layout-grid-padding-column-rythm-md: 32px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-padding-column-rythm-md: 48px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-padding-column-rythm-md: 64px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-padding-column-rythm-md: 96px;
   }
 
   --spacing-sc-layout-grid-padding-column-rythm-sm: 16px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-padding-column-rythm-sm: 32px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-padding-column-rythm-sm: 40px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-padding-column-rythm-sm: 64px;
   }
 
   --spacing-sc-layout-grid-padding-column-rythm-lg: 40px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-padding-column-rythm-lg: 64px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-padding-column-rythm-lg: 96px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-padding-column-rythm-lg: 128px;
   }
 
   --spacing-sc-layout-grid-padding-column-rythm-xl: 80px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-padding-column-rythm-xl: 128px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-padding-column-rythm-xl: 160px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-padding-column-rythm-xl: 208px;
   }
 
   --spacing-sc-layout-grid-padding-column-rythm-none: 0px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-padding-column-rythm-none: 0px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-padding-column-rythm-none: 0px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-padding-column-rythm-none: 0px;
   }
 
   --spacing-sc-spacing-padding-xxl: 80px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-spacing-padding-xxl: 112px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-spacing-padding-xxl: 128px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-spacing-padding-xxl: 160px;
   }
 
   --spacing-sc-layout-grid-column-compact-inactive: 375px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-column-compact-inactive: 375px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-column-compact-inactive: 375px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-column-compact-inactive: 375px;
   }
 
   --spacing-sc-layout-grid-column-compact-half: 375px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-column-compact-half: 375px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-column-compact-half: 375px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-column-compact-half: 375px;
   }
 
   --spacing-sc-layout-grid-column-compact-active: 375px;
-  @media (min-width: 768px){
+  @variant md{
     --spacing-sc-layout-grid-column-compact-active: 375px;
   }
-  @media (min-width: 1024px){
+  @variant lg{
     --spacing-sc-layout-grid-column-compact-active: 375px;
   }
-  @media (min-width: 1440px){
+  @variant xl{
     --spacing-sc-layout-grid-column-compact-active: 375px;
   }
 

@@ -1,4 +1,4 @@
-@config '../tailwind.config.js';
+/* @config '../tailwind.config.js'; */
 @import 'tailwindcss';
 
 
@@ -6,6 +6,7 @@
 @import './parts/breakpoints.css';
 @import './parts/themes.css';
 @import './parts/spacing.css';
+@import './parts/text.css';
 
 @import './parts/font-face.css' layer(base);
 

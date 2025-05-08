@@ -73,7 +73,7 @@
     --sc-typography-body-sm-font-feature-settings: String value;
 }
 
-@media (min-width: 768px) {
+@variant md {
   :root {
     --sc-typography-h1-font-weight: 300;
     --sc-typography-h1-font-size: 32px;
@@ -150,7 +150,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@variant lg {
   :root {
     --sc-typography-h1-font-weight: 300;
     --sc-typography-h1-font-size: 48px;
@@ -227,7 +227,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@variant xl {
   :root {
     --sc-typography-h1-font-weight: 300;
     --sc-typography-h1-font-size: 60px;

@@ -625,7 +625,7 @@
   --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
   --sc-typography-body-sm-font-feature-settings: String value;
 }
-@media (min-width: 768px) {
+@media (width >= 768px) {
   :root {
     --sc-typography-h1-font-weight: 300;
     --sc-typography-h1-font-size: 32px;
@@ -701,7 +701,7 @@
     --sc-typography-body-sm-font-feature-settings: String value;
   }
 }
-@media (min-width: 1024px) {
+@media (width >= 1440px) {
   :root {
     --sc-typography-h1-font-weight: 300;
     --sc-typography-h1-font-size: 48px;
@@ -777,7 +777,7 @@
     --sc-typography-body-sm-font-feature-settings: String value;
   }
 }
-@media (min-width: 1440px) {
+@media (width >= 2560px) {
   :root {
     --sc-typography-h1-font-weight: 300;
     --sc-typography-h1-font-size: 60px;

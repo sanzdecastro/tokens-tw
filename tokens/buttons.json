@@ -1,0 +1,38 @@
+{
+    "xs": {
+        "scSpacingButtonPaddingHorizontal": 6,
+        "scSpacingButtonPaddingVertical": 2,
+        "scSpacingButtonPaddingNone": 0,
+        "scBorderButtonRadius": 2,
+        "scTypographyButtonFont": "Suisse Int'l",
+        "scTypographyButtonFontSize": 12,
+        "scTypographyButtonFontWeight": 400
+    },
+    "sm": {
+        "scSpacingButtonPaddingHorizontal": 6,
+        "scSpacingButtonPaddingVertical": 2,
+        "scSpacingButtonPaddingNone": 0,
+        "scBorderButtonRadius": 2,
+        "scTypographyButtonFont": "Suisse Int'l",
+        "scTypographyButtonFontSize": 14,
+        "scTypographyButtonFontWeight": 400
+    },
+    "md": {
+        "scSpacingButtonPaddingHorizontal": 12,
+        "scSpacingButtonPaddingVertical": 8,
+        "scSpacingButtonPaddingNone": 0,
+        "scBorderButtonRadius": 6,
+        "scTypographyButtonFont": "Suisse Int'l",
+        "scTypographyButtonFontSize": 14,
+        "scTypographyButtonFontWeight": 400
+    },
+    "lg": {
+        "scSpacingButtonPaddingHorizontal": 14,
+        "scSpacingButtonPaddingVertical": 16,
+        "scSpacingButtonPaddingNone": 0,
+        "scBorderButtonRadius": 8,
+        "scTypographyButtonFont": "Suisse Int'l",
+        "scTypographyButtonFontSize": 18,
+        "scTypographyButtonFontWeight": 400
+    }
+}

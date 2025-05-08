@@ -37,7 +37,7 @@ function addUnit(key, value) {
 function generateCssBlock(breakpoint, data) {
   let css = "";
   if (breakpoint) {
-    css += `@media (min-width: ${breakpoint}) {\n  :root {\n`;
+    css += `@variant ${breakpoint} {\n  :root {\n`;
   } else {
     css += `:root {\n`;
   }
@@ -75,9 +75,9 @@ function generateHeadingStyles() {
 let cssOutput = "";
 // Valores por defecto (mobile)
 cssOutput += generateCssBlock(null, text.mobile);
-cssOutput += "\n" + generateCssBlock("768px", text.tablet);
-cssOutput += "\n" + generateCssBlock("1024px", text.desktop);
-cssOutput += "\n" + generateCssBlock("1440px", text.bigDesktop);
+cssOutput += "\n" + generateCssBlock("md", text.tablet);
+cssOutput += "\n" + generateCssBlock("lg", text.desktop);
+cssOutput += "\n" + generateCssBlock("xl", text.bigDesktop);
 
 // Agregamos los estilos generados para los headings
 cssOutput += "\n" + generateHeadingStyles();

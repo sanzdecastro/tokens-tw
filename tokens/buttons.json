@@ -6,7 +6,8 @@
         "scBorderButtonRadius": 2,
         "scTypographyButtonFont": "Suisse Int'l",
         "scTypographyButtonFontSize": 12,
-        "scTypographyButtonFontWeight": 400
+        "scTypographyButtonFontWeight": 300,
+        "scTypographyButtonLineHeight": 20
     },
     "sm": {
         "scSpacingButtonPaddingHorizontal": 6,
@@ -15,7 +16,8 @@
         "scBorderButtonRadius": 2,
         "scTypographyButtonFont": "Suisse Int'l",
         "scTypographyButtonFontSize": 14,
-        "scTypographyButtonFontWeight": 400
+        "scTypographyButtonFontWeight": 300,
+        "scTypographyButtonLineHeight": 24
     },
     "md": {
         "scSpacingButtonPaddingHorizontal": 12,
@@ -24,15 +26,17 @@
         "scBorderButtonRadius": 6,
         "scTypographyButtonFont": "Suisse Int'l",
         "scTypographyButtonFontSize": 14,
-        "scTypographyButtonFontWeight": 400
+        "scTypographyButtonFontWeight": 300,
+        "scTypographyButtonLineHeight": 24
     },
     "lg": {
         "scSpacingButtonPaddingHorizontal": 14,
-        "scSpacingButtonPaddingVertical": 16,
+        "scSpacingButtonPaddingVertical": 14,
         "scSpacingButtonPaddingNone": 0,
         "scBorderButtonRadius": 8,
         "scTypographyButtonFont": "Suisse Int'l",
         "scTypographyButtonFontSize": 18,
-        "scTypographyButtonFontWeight": 400
+        "scTypographyButtonFontWeight": 300,
+        "scTypographyButtonLineHeight": 18
     }
 }

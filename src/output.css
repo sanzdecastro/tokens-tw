@@ -1,4 +1,4 @@
-/*! tailwindcss v4.1.8 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.10 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -33,14 +33,49 @@
     --default-mono-font-variation-settings: var(
       --font-mono--font-variation-settings
     );
-    --color-sc-color-background: hsl(0, 0%, 100%);
-    --color-sc-color-foreground: hsl(24, 10%, 10%);
-    --color-sc-color-primary: hsl(12, 6%, 15%);
-    --color-sc-color-secondary: hsl(60, 5%, 96%);
-    --color-sc-color-secondary-foreground: hsl(12, 6%, 15%);
-    --color-sc-color-ring: hsl(25, 5%, 45%);
-    --color-sc-color-hover-primary: hsl(30, 6%, 25%);
-    --color-sc-color-hover-secondary: hsl(20, 6%, 90%);
+    --color-sc-color-background: hsla(0, 0%, 100%, 1.00);
+    --color-sc-color-foreground: hsla(24, 10%, 10%, 1.00);
+    --color-sc-color-muted: hsla(60, 5%, 96%, 1.00);
+    --color-sc-color-muted-foreground: hsla(25, 5%, 45%, 1.00);
+    --color-sc-color-card: hsla(0, 0%, 100%, 1.00);
+    --color-sc-color-card-foreground: hsla(20, 14%, 4%, 1.00);
+    --color-sc-color-popover: hsla(0, 0%, 100%, 1.00);
+    --color-sc-color-popover-foreground: hsla(20, 14%, 4%, 1.00);
+    --color-sc-color-border: hsla(20, 6%, 90%, 1.00);
+    --color-sc-color-input: hsla(20, 6%, 90%, 1.00);
+    --color-sc-color-primary: hsla(12, 6%, 15%, 1.00);
+    --color-sc-color-primary-foreground: hsla(60, 9%, 98%, 1.00);
+    --color-sc-color-secondary: hsla(60, 5%, 96%, 1.00);
+    --color-sc-color-secondary-foreground: hsla(12, 6%, 15%, 1.00);
+    --color-sc-color-accent: hsla(60, 5%, 96%, 1.00);
+    --color-sc-color-accent-foreground: hsla(12, 6%, 15%, 1.00);
+    --color-sc-color-destructive: hsla(26, 90%, 37%, 1.00);
+    --color-sc-color-destructive-foreground: hsla(60, 9%, 98%, 1.00);
+    --color-sc-color-ring: hsla(25, 5%, 45%, 1.00);
+    --color-sc-color-hover-primary: hsla(30, 6%, 25%, 1.00);
+    --color-sc-color-hover-secondary: hsla(20, 6%, 90%, 1.00);
+    --color-sc-color-hover-destructive: hsla(32, 95%, 44%, 1.00);
+    --color-sc-color-success: hsla(142, 76%, 36%, 1.00);
+    --color-sc-color-hover-succes: hsla(142, 72%, 29%, 1.00);
+    --color-sc-color-border-destructive50: hsla(0, 96%, 89%, 1.00);
+    --color-sc-color-bg-destructive10: hsla(0, 72%, 51%, 0.10);
+    --color-sc-color-hover-destructive20: hsla(0, 72%, 51%, 0.20);
+    --color-sc-color-bg-muted50: hsla(210, 40%, 96%, 0.50);
+    --color-sc-color-bg-accent50: hsla(210, 40%, 96%, 0.50);
+    --color-sc-color-bg-muted40: hsla(210, 40%, 96%, 0.40);
+    --color-sc-color-border-muted40: hsla(210, 40%, 96%, 0.40);
+    --color-sc-color-sidebar-background: hsla(60, 9%, 98%, 1.00);
+    --color-sc-color-sidebar-foreground: hsla(30, 6%, 25%, 1.00);
+    --color-sc-color-sidebar-primary: hsla(24, 10%, 10%, 1.00);
+    --color-sc-color-sidebar-primary-foreground: hsla(60, 9%, 98%, 1.00);
+    --color-sc-color-sidebar-accent: hsla(60, 5%, 96%, 1.00);
+    --color-sc-color-sidebar-accent-foreground: hsla(24, 10%, 10%, 1.00);
+    --color-sc-color-sidebar-border: hsla(20, 6%, 90%, 1.00);
+    --color-sc-color-sidebar-ring: hsla(24, 5%, 64%, 1.00);
+    --color-sc-color-sidebar-foreground70: hsla(30, 6%, 25%, 0.70);
+    --color-neon-green: hsla(81, 96%, 55%, 1.00);
+    --color-sc-color-menu-backdrop: hsla(24, 10%, 10%, 0.80);
+    --color-sc-color-image-backdrop: hsla(24, 10%, 10%, 0.20);
     --spacing-sc-spacing-padding-sm: var(--spacing-sc-spacing-padding-sm);
     --spacing-sc-spacing-padding-md: var(--spacing-sc-spacing-padding-md);
     --spacing-sc-spacing-padding-lg: var(--spacing-sc-spacing-padding-lg);
@@ -221,17 +256,39 @@
   .flex {
     display: flex;
   }
+  .table {
+    display: table;
+  }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .h-fit {
     height: fit-content;
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
   }
   .flex-1 {
     flex: 1;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .bg-sc-color-background {
     background-color: var(--color-sc-color-background);
+  }
+  .bg-sc-color-border-destructive50 {
+    background-color: var(--color-sc-color-border-destructive50);
   }
   .p-10 {
     padding: calc(var(--spacing) * 10);
@@ -253,6 +310,13 @@
     --tw-numeric-spacing: proportional-nums;
     font-variant-numeric: var(--tw-ordinal,) var(--tw-slashed-zero,) var(--tw-numeric-figure,) var(--tw-numeric-spacing,) var(--tw-numeric-fraction,);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
   .md\:sticky {
     @media (width >= 768px) {
       position: sticky;
@@ -265,139 +329,139 @@
   }
 }
 [data-theme="darkPro"] {
-  --color-sc-color-background: hsl(20, 14%, 4%);
-  --color-sc-color-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-muted: hsl(12, 6%, 15%);
-  --color-sc-color-muted-foreground: hsl(24, 5%, 64%);
-  --color-sc-color-card: hsl(20, 14%, 4%);
-  --color-sc-color-card-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-popover: hsl(20, 14%, 4%);
-  --color-sc-color-popover-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-border: hsl(30, 6%, 25%);
-  --color-sc-color-input: hsl(30, 6%, 25%);
-  --color-sc-color-primary: hsl(60, 9%, 98%);
-  --color-sc-color-primary-foreground: hsl(24, 10%, 10%);
-  --color-sc-color-secondary: hsl(12, 6%, 15%);
-  --color-sc-color-secondary-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-accent: hsl(12, 6%, 15%);
-  --color-sc-color-accent-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-destructive: hsl(0, 63%, 31%);
-  --color-sc-color-destructive-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-ring: hsl(24, 5%, 64%);
-  --color-sc-color-hover-primary: hsl(60, 5%, 96%);
-  --color-sc-color-hover-secondary: hsl(30, 6%, 25%);
-  --color-sc-color-hover-destructive: hsl(0, 70%, 35%);
-  --color-sc-color-success: hsl(142, 71%, 45%);
-  --color-sc-color-hover-succes: hsl(142, 76%, 36%);
-  --color-sc-color-border-destructive50: hsl(0, 63%, 31%);
-  --color-sc-color-bg-destructive10: hsl(0, 63%, 31%);
-  --color-sc-color-hover-destructive20: hsl(0, 63%, 31%);
-  --color-sc-color-bg-muted50: hsl(217, 33%, 17%);
-  --color-sc-color-bg-accent50: hsl(217, 33%, 17%);
-  --color-sc-color-bg-muted40: hsl(217, 33%, 17%);
-  --color-sc-color-border-muted40: hsl(217, 33%, 17%);
-  --color-sc-color-sidebar-background: hsl(24, 10%, 10%);
-  --color-sc-color-sidebar-foreground: hsl(60, 5%, 96%);
-  --color-sc-color-sidebar-primary: hsl(224, 76%, 48%);
-  --color-sc-color-sidebar-primary-foreground: hsl(0, 0%, 100%);
-  --color-sc-color-sidebar-accent: hsl(12, 6%, 15%);
-  --color-sc-color-sidebar-accent-foreground: hsl(60, 5%, 96%);
-  --color-sc-color-sidebar-border: hsl(12, 6%, 15%);
-  --color-sc-color-sidebar-ring: hsl(24, 6%, 83%);
-  --color-sc-color-sidebar-foreground70: hsl(210, 40%, 96%);
-  --color-neon-green: hsl(81, 96%, 55%);
-  --color-sc-color-menu-backdrop: hsl(60, 9%, 98%);
-  --color-sc-color-image-backdrop: hsl(24, 10%, 10%);
+  --color-sc-color-background: hsla(20, 14%, 4%, 1.00);
+  --color-sc-color-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-muted: hsla(12, 6%, 15%, 1.00);
+  --color-sc-color-muted-foreground: hsla(24, 5%, 64%, 1.00);
+  --color-sc-color-card: hsla(20, 14%, 4%, 1.00);
+  --color-sc-color-card-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-popover: hsla(20, 14%, 4%, 1.00);
+  --color-sc-color-popover-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-border: hsla(30, 6%, 25%, 1.00);
+  --color-sc-color-input: hsla(30, 6%, 25%, 1.00);
+  --color-sc-color-primary: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-primary-foreground: hsla(24, 10%, 10%, 1.00);
+  --color-sc-color-secondary: hsla(12, 6%, 15%, 1.00);
+  --color-sc-color-secondary-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-accent: hsla(12, 6%, 15%, 1.00);
+  --color-sc-color-accent-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-destructive: hsla(0, 63%, 31%, 1.00);
+  --color-sc-color-destructive-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-ring: hsla(24, 5%, 64%, 1.00);
+  --color-sc-color-hover-primary: hsla(60, 5%, 96%, 1.00);
+  --color-sc-color-hover-secondary: hsla(30, 6%, 25%, 1.00);
+  --color-sc-color-hover-destructive: hsla(0, 70%, 35%, 1.00);
+  --color-sc-color-success: hsla(142, 71%, 45%, 1.00);
+  --color-sc-color-hover-succes: hsla(142, 76%, 36%, 1.00);
+  --color-sc-color-border-destructive50: hsla(0, 63%, 31%, 1.00);
+  --color-sc-color-bg-destructive10: hsla(0, 63%, 31%, 0.10);
+  --color-sc-color-hover-destructive20: hsla(0, 63%, 31%, 0.20);
+  --color-sc-color-bg-muted50: hsla(217, 33%, 17%, 0.50);
+  --color-sc-color-bg-accent50: hsla(217, 33%, 17%, 0.50);
+  --color-sc-color-bg-muted40: hsla(217, 33%, 17%, 0.40);
+  --color-sc-color-border-muted40: hsla(217, 33%, 17%, 0.40);
+  --color-sc-color-sidebar-background: hsla(24, 10%, 10%, 1.00);
+  --color-sc-color-sidebar-foreground: hsla(60, 5%, 96%, 1.00);
+  --color-sc-color-sidebar-primary: hsla(224, 76%, 48%, 1.00);
+  --color-sc-color-sidebar-primary-foreground: hsla(0, 0%, 100%, 1.00);
+  --color-sc-color-sidebar-accent: hsla(12, 6%, 15%, 1.00);
+  --color-sc-color-sidebar-accent-foreground: hsla(60, 5%, 96%, 1.00);
+  --color-sc-color-sidebar-border: hsla(12, 6%, 15%, 1.00);
+  --color-sc-color-sidebar-ring: hsla(24, 6%, 83%, 1.00);
+  --color-sc-color-sidebar-foreground70: hsla(210, 40%, 96%, 0.70);
+  --color-neon-green: hsla(81, 96%, 55%, 1.00);
+  --color-sc-color-menu-backdrop: hsla(60, 9%, 98%, 0.80);
+  --color-sc-color-image-backdrop: hsla(24, 10%, 10%, 0.20);
 }
 [data-theme="lightGaleria"] {
-  --color-sc-color-background: hsl(0, 0%, 100%);
-  --color-sc-color-foreground: hsl(12, 6%, 15%);
-  --color-sc-color-muted: hsl(240, 5%, 96%);
-  --color-sc-color-muted-foreground: hsl(240, 4%, 46%);
-  --color-sc-color-card: hsl(0, 0%, 100%);
-  --color-sc-color-card-foreground: hsl(240, 10%, 4%);
-  --color-sc-color-popover: hsl(0, 0%, 100%);
-  --color-sc-color-popover-foreground: hsl(240, 10%, 4%);
-  --color-sc-color-border: hsl(240, 6%, 90%);
-  --color-sc-color-input: hsl(240, 6%, 90%);
-  --color-sc-color-primary: hsl(30, 6%, 25%);
-  --color-sc-color-primary-foreground: hsl(60, 5%, 96%);
-  --color-sc-color-secondary: hsl(240, 5%, 96%);
-  --color-sc-color-secondary-foreground: hsl(30, 6%, 25%);
-  --color-sc-color-accent: hsl(240, 5%, 96%);
-  --color-sc-color-accent-foreground: hsl(24, 10%, 10%);
-  --color-sc-color-destructive: hsl(0, 72%, 51%);
-  --color-sc-color-destructive-foreground: hsl(0, 0%, 98%);
-  --color-sc-color-ring: hsl(240, 4%, 46%);
-  --color-sc-color-hover-primary: hsl(33, 5%, 32%);
-  --color-sc-color-hover-secondary: hsl(20, 6%, 90%);
-  --color-sc-color-hover-destructive: hsl(0, 84%, 60%);
-  --color-sc-color-success: hsl(142, 76%, 36%);
-  --color-sc-color-hover-succes: hsl(142, 72%, 29%);
-  --color-sc-color-border-destructive50: hsl(0, 96%, 89%);
-  --color-sc-color-bg-destructive10: hsl(0, 72%, 51%);
-  --color-sc-color-hover-destructive20: hsl(0, 72%, 51%);
-  --color-sc-color-bg-muted50: hsl(240, 5%, 96%);
-  --color-sc-color-bg-accent50: hsl(240, 5%, 96%);
-  --color-sc-color-bg-muted40: hsl(240, 5%, 96%);
-  --color-sc-color-border-muted40: hsl(240, 5%, 96%);
-  --color-sc-color-sidebar-background: hsl(0, 0%, 98%);
-  --color-sc-color-sidebar-foreground: hsl(240, 5%, 26%);
-  --color-sc-color-sidebar-primary: hsl(240, 6%, 10%);
-  --color-sc-color-sidebar-primary-foreground: hsl(0, 0%, 98%);
-  --color-sc-color-sidebar-accent: hsl(240, 5%, 96%);
-  --color-sc-color-sidebar-accent-foreground: hsl(240, 6%, 10%);
-  --color-sc-color-sidebar-border: hsl(240, 6%, 90%);
-  --color-sc-color-sidebar-ring: hsl(240, 5%, 65%);
-  --color-sc-color-sidebar-foreground70: hsl(240, 5%, 26%);
-  --color-neon-green: hsl(81, 96%, 55%);
-  --color-sc-color-menu-backdrop: hsl(12, 6%, 15%);
-  --color-sc-color-image-backdrop: hsl(24, 10%, 10%);
+  --color-sc-color-background: hsla(0, 0%, 100%, 1.00);
+  --color-sc-color-foreground: hsla(12, 6%, 15%, 1.00);
+  --color-sc-color-muted: hsla(240, 5%, 96%, 1.00);
+  --color-sc-color-muted-foreground: hsla(240, 4%, 46%, 1.00);
+  --color-sc-color-card: hsla(0, 0%, 100%, 1.00);
+  --color-sc-color-card-foreground: hsla(240, 10%, 4%, 1.00);
+  --color-sc-color-popover: hsla(0, 0%, 100%, 1.00);
+  --color-sc-color-popover-foreground: hsla(240, 10%, 4%, 1.00);
+  --color-sc-color-border: hsla(240, 6%, 90%, 1.00);
+  --color-sc-color-input: hsla(240, 6%, 90%, 1.00);
+  --color-sc-color-primary: hsla(30, 6%, 25%, 1.00);
+  --color-sc-color-primary-foreground: hsla(60, 5%, 96%, 1.00);
+  --color-sc-color-secondary: hsla(240, 5%, 96%, 1.00);
+  --color-sc-color-secondary-foreground: hsla(30, 6%, 25%, 1.00);
+  --color-sc-color-accent: hsla(240, 5%, 96%, 1.00);
+  --color-sc-color-accent-foreground: hsla(24, 10%, 10%, 1.00);
+  --color-sc-color-destructive: hsla(0, 72%, 51%, 1.00);
+  --color-sc-color-destructive-foreground: hsla(0, 0%, 98%, 1.00);
+  --color-sc-color-ring: hsla(240, 4%, 46%, 1.00);
+  --color-sc-color-hover-primary: hsla(33, 5%, 32%, 1.00);
+  --color-sc-color-hover-secondary: hsla(20, 6%, 90%, 1.00);
+  --color-sc-color-hover-destructive: hsla(0, 84%, 60%, 1.00);
+  --color-sc-color-success: hsla(142, 76%, 36%, 1.00);
+  --color-sc-color-hover-succes: hsla(142, 72%, 29%, 1.00);
+  --color-sc-color-border-destructive50: hsla(0, 96%, 89%, 1.00);
+  --color-sc-color-bg-destructive10: hsla(0, 72%, 51%, 0.10);
+  --color-sc-color-hover-destructive20: hsla(0, 72%, 51%, 0.20);
+  --color-sc-color-bg-muted50: hsla(240, 5%, 96%, 0.50);
+  --color-sc-color-bg-accent50: hsla(240, 5%, 96%, 0.50);
+  --color-sc-color-bg-muted40: hsla(240, 5%, 96%, 0.40);
+  --color-sc-color-border-muted40: hsla(240, 5%, 96%, 0.40);
+  --color-sc-color-sidebar-background: hsla(0, 0%, 98%, 1.00);
+  --color-sc-color-sidebar-foreground: hsla(240, 5%, 26%, 1.00);
+  --color-sc-color-sidebar-primary: hsla(240, 6%, 10%, 1.00);
+  --color-sc-color-sidebar-primary-foreground: hsla(0, 0%, 98%, 1.00);
+  --color-sc-color-sidebar-accent: hsla(240, 5%, 96%, 1.00);
+  --color-sc-color-sidebar-accent-foreground: hsla(240, 6%, 10%, 1.00);
+  --color-sc-color-sidebar-border: hsla(240, 6%, 90%, 1.00);
+  --color-sc-color-sidebar-ring: hsla(240, 5%, 65%, 1.00);
+  --color-sc-color-sidebar-foreground70: hsla(240, 5%, 26%, 0.70);
+  --color-neon-green: hsla(81, 96%, 55%, 1.00);
+  --color-sc-color-menu-backdrop: hsla(12, 6%, 15%, 0.80);
+  --color-sc-color-image-backdrop: hsla(24, 10%, 10%, 0.20);
 }
 [data-theme="4th"] {
-  --color-sc-color-background: hsl(0, 0%, 100%);
-  --color-sc-color-foreground: hsl(23, 83%, 31%);
-  --color-sc-color-muted: hsl(48, 96%, 89%);
-  --color-sc-color-muted-foreground: hsl(21, 92%, 14%);
-  --color-sc-color-card: hsl(0, 0%, 100%);
-  --color-sc-color-card-foreground: hsl(22, 78%, 26%);
-  --color-sc-color-popover: hsl(0, 0%, 100%);
-  --color-sc-color-popover-foreground: hsl(22, 78%, 26%);
-  --color-sc-color-border: hsl(20, 6%, 90%);
-  --color-sc-color-input: hsl(20, 6%, 90%);
-  --color-sc-color-primary: hsl(23, 83%, 31%);
-  --color-sc-color-primary-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-secondary: hsl(48, 100%, 96%);
-  --color-sc-color-secondary-foreground: hsl(22, 78%, 26%);
-  --color-sc-color-accent: hsl(48, 100%, 96%);
-  --color-sc-color-accent-foreground: hsl(22, 78%, 26%);
-  --color-sc-color-destructive: hsl(0, 72%, 51%);
-  --color-sc-color-destructive-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-ring: hsl(25, 5%, 45%);
-  --color-sc-color-hover-primary: hsl(26, 90%, 37%);
-  --color-sc-color-hover-secondary: hsl(48, 96%, 89%);
-  --color-sc-color-hover-destructive: hsl(0, 84%, 60%);
-  --color-sc-color-success: hsl(142, 76%, 36%);
-  --color-sc-color-hover-succes: hsl(142, 72%, 29%);
-  --color-sc-color-border-destructive50: hsl(0, 96%, 89%);
-  --color-sc-color-bg-destructive10: hsl(0, 72%, 51%);
-  --color-sc-color-hover-destructive20: hsl(0, 72%, 51%);
-  --color-sc-color-bg-muted50: hsl(210, 40%, 96%);
-  --color-sc-color-bg-accent50: hsl(210, 40%, 96%);
-  --color-sc-color-bg-muted40: hsl(210, 40%, 96%);
-  --color-sc-color-border-muted40: hsl(210, 40%, 96%);
-  --color-sc-color-sidebar-background: hsl(60, 9%, 98%);
-  --color-sc-color-sidebar-foreground: hsl(30, 6%, 25%);
-  --color-sc-color-sidebar-primary: hsl(24, 10%, 10%);
-  --color-sc-color-sidebar-primary-foreground: hsl(60, 9%, 98%);
-  --color-sc-color-sidebar-accent: hsl(60, 5%, 96%);
-  --color-sc-color-sidebar-accent-foreground: hsl(24, 10%, 10%);
-  --color-sc-color-sidebar-border: hsl(20, 6%, 90%);
-  --color-sc-color-sidebar-ring: hsl(24, 5%, 64%);
-  --color-sc-color-sidebar-foreground70: hsl(30, 6%, 25%);
-  --color-neon-green: hsl(81, 96%, 55%);
-  --color-sc-color-menu-backdrop: hsl(24, 10%, 10%);
-  --color-sc-color-image-backdrop: hsl(24, 10%, 10%);
+  --color-sc-color-background: hsla(0, 0%, 100%, 1.00);
+  --color-sc-color-foreground: hsla(23, 83%, 31%, 1.00);
+  --color-sc-color-muted: hsla(48, 96%, 89%, 1.00);
+  --color-sc-color-muted-foreground: hsla(21, 92%, 14%, 1.00);
+  --color-sc-color-card: hsla(0, 0%, 100%, 1.00);
+  --color-sc-color-card-foreground: hsla(22, 78%, 26%, 1.00);
+  --color-sc-color-popover: hsla(0, 0%, 100%, 1.00);
+  --color-sc-color-popover-foreground: hsla(22, 78%, 26%, 1.00);
+  --color-sc-color-border: hsla(20, 6%, 90%, 1.00);
+  --color-sc-color-input: hsla(20, 6%, 90%, 1.00);
+  --color-sc-color-primary: hsla(23, 83%, 31%, 1.00);
+  --color-sc-color-primary-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-secondary: hsla(48, 100%, 96%, 1.00);
+  --color-sc-color-secondary-foreground: hsla(22, 78%, 26%, 1.00);
+  --color-sc-color-accent: hsla(48, 100%, 96%, 1.00);
+  --color-sc-color-accent-foreground: hsla(22, 78%, 26%, 1.00);
+  --color-sc-color-destructive: hsla(0, 72%, 51%, 1.00);
+  --color-sc-color-destructive-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-ring: hsla(25, 5%, 45%, 1.00);
+  --color-sc-color-hover-primary: hsla(26, 90%, 37%, 1.00);
+  --color-sc-color-hover-secondary: hsla(48, 96%, 89%, 1.00);
+  --color-sc-color-hover-destructive: hsla(0, 84%, 60%, 1.00);
+  --color-sc-color-success: hsla(142, 76%, 36%, 1.00);
+  --color-sc-color-hover-succes: hsla(142, 72%, 29%, 1.00);
+  --color-sc-color-border-destructive50: hsla(0, 96%, 89%, 1.00);
+  --color-sc-color-bg-destructive10: hsla(0, 72%, 51%, 0.10);
+  --color-sc-color-hover-destructive20: hsla(0, 72%, 51%, 0.20);
+  --color-sc-color-bg-muted50: hsla(210, 40%, 96%, 0.50);
+  --color-sc-color-bg-accent50: hsla(210, 40%, 96%, 0.50);
+  --color-sc-color-bg-muted40: hsla(210, 40%, 96%, 0.40);
+  --color-sc-color-border-muted40: hsla(210, 40%, 96%, 0.40);
+  --color-sc-color-sidebar-background: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-sidebar-foreground: hsla(30, 6%, 25%, 1.00);
+  --color-sc-color-sidebar-primary: hsla(24, 10%, 10%, 1.00);
+  --color-sc-color-sidebar-primary-foreground: hsla(60, 9%, 98%, 1.00);
+  --color-sc-color-sidebar-accent: hsla(60, 5%, 96%, 1.00);
+  --color-sc-color-sidebar-accent-foreground: hsla(24, 10%, 10%, 1.00);
+  --color-sc-color-sidebar-border: hsla(20, 6%, 90%, 1.00);
+  --color-sc-color-sidebar-ring: hsla(24, 5%, 64%, 1.00);
+  --color-sc-color-sidebar-foreground70: hsla(30, 6%, 25%, 0.70);
+  --color-neon-green: hsla(81, 96%, 55%, 1.00);
+  --color-sc-color-menu-backdrop: hsla(24, 10%, 10%, 1.00);
+  --color-sc-color-image-backdrop: hsla(24, 10%, 10%, 1.00);
 }
 :root {
   --spacing-sc-spacing-padding-sm: 16px;
@@ -1103,6 +1167,11 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-ordinal {
   syntax: "*";
   inherits: false;
@@ -1122,6 +1191,11 @@
 @property --tw-numeric-fraction {
   syntax: "*";
   inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @property --tw-leading {
   syntax: "*";
@@ -1199,11 +1273,13 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
       --tw-ordinal: initial;
       --tw-slashed-zero: initial;
       --tw-numeric-figure: initial;
       --tw-numeric-spacing: initial;
       --tw-numeric-fraction: initial;
+      --tw-outline-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;

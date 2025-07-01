@@ -1,4 +1,4 @@
-/*! tailwindcss v4.1.10 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -35,47 +35,13 @@
     );
     --color-sc-color-background: hsla(0, 0%, 100%, 1.00);
     --color-sc-color-foreground: hsla(24, 10%, 10%, 1.00);
-    --color-sc-color-muted: hsla(60, 5%, 96%, 1.00);
-    --color-sc-color-muted-foreground: hsla(25, 5%, 45%, 1.00);
-    --color-sc-color-card: hsla(0, 0%, 100%, 1.00);
-    --color-sc-color-card-foreground: hsla(20, 14%, 4%, 1.00);
-    --color-sc-color-popover: hsla(0, 0%, 100%, 1.00);
-    --color-sc-color-popover-foreground: hsla(20, 14%, 4%, 1.00);
-    --color-sc-color-border: hsla(20, 6%, 90%, 1.00);
-    --color-sc-color-input: hsla(20, 6%, 90%, 1.00);
     --color-sc-color-primary: hsla(12, 6%, 15%, 1.00);
-    --color-sc-color-primary-foreground: hsla(60, 9%, 98%, 1.00);
     --color-sc-color-secondary: hsla(60, 5%, 96%, 1.00);
     --color-sc-color-secondary-foreground: hsla(12, 6%, 15%, 1.00);
-    --color-sc-color-accent: hsla(60, 5%, 96%, 1.00);
-    --color-sc-color-accent-foreground: hsla(12, 6%, 15%, 1.00);
-    --color-sc-color-destructive: hsla(26, 90%, 37%, 1.00);
-    --color-sc-color-destructive-foreground: hsla(60, 9%, 98%, 1.00);
     --color-sc-color-ring: hsla(25, 5%, 45%, 1.00);
     --color-sc-color-hover-primary: hsla(30, 6%, 25%, 1.00);
     --color-sc-color-hover-secondary: hsla(20, 6%, 90%, 1.00);
-    --color-sc-color-hover-destructive: hsla(32, 95%, 44%, 1.00);
-    --color-sc-color-success: hsla(142, 76%, 36%, 1.00);
-    --color-sc-color-hover-succes: hsla(142, 72%, 29%, 1.00);
     --color-sc-color-border-destructive50: hsla(0, 96%, 89%, 1.00);
-    --color-sc-color-bg-destructive10: hsla(0, 72%, 51%, 0.10);
-    --color-sc-color-hover-destructive20: hsla(0, 72%, 51%, 0.20);
-    --color-sc-color-bg-muted50: hsla(210, 40%, 96%, 0.50);
-    --color-sc-color-bg-accent50: hsla(210, 40%, 96%, 0.50);
-    --color-sc-color-bg-muted40: hsla(210, 40%, 96%, 0.40);
-    --color-sc-color-border-muted40: hsla(210, 40%, 96%, 0.40);
-    --color-sc-color-sidebar-background: hsla(60, 9%, 98%, 1.00);
-    --color-sc-color-sidebar-foreground: hsla(30, 6%, 25%, 1.00);
-    --color-sc-color-sidebar-primary: hsla(24, 10%, 10%, 1.00);
-    --color-sc-color-sidebar-primary-foreground: hsla(60, 9%, 98%, 1.00);
-    --color-sc-color-sidebar-accent: hsla(60, 5%, 96%, 1.00);
-    --color-sc-color-sidebar-accent-foreground: hsla(24, 10%, 10%, 1.00);
-    --color-sc-color-sidebar-border: hsla(20, 6%, 90%, 1.00);
-    --color-sc-color-sidebar-ring: hsla(24, 5%, 64%, 1.00);
-    --color-sc-color-sidebar-foreground70: hsla(30, 6%, 25%, 0.70);
-    --color-neon-green: hsla(81, 96%, 55%, 1.00);
-    --color-sc-color-menu-backdrop: hsla(24, 10%, 10%, 0.80);
-    --color-sc-color-image-backdrop: hsla(24, 10%, 10%, 0.20);
     --spacing-sc-spacing-padding-sm: var(--spacing-sc-spacing-padding-sm);
     --spacing-sc-spacing-padding-md: var(--spacing-sc-spacing-padding-md);
     --spacing-sc-spacing-padding-lg: var(--spacing-sc-spacing-padding-lg);
@@ -256,9 +222,6 @@
   .flex {
     display: flex;
   }
-  .table {
-    display: table;
-  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -271,18 +234,8 @@
   .flex-1 {
     flex: 1;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .bg-sc-color-background {
     background-color: var(--color-sc-color-background);
@@ -309,13 +262,6 @@
   .proportional-nums {
     --tw-numeric-spacing: proportional-nums;
     font-variant-numeric: var(--tw-ordinal,) var(--tw-slashed-zero,) var(--tw-numeric-figure,) var(--tw-numeric-spacing,) var(--tw-numeric-fraction,);
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .md\:sticky {
     @media (width >= 768px) {
@@ -1056,11 +1002,95 @@
     font-style: normal;
   }
   @font-face {
+    font-family: "Suisse Int'l";
+    src: url("fonts/suisse/SuisseIntl-ThinItalic.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-ThinItalic.woff") format("woff"), url("fonts/suisse/SuisseIntl-ThinItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Suisse Int'l";
+    src: url("fonts/suisse/SuisseIntl-Italic.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-Italic.woff") format("woff"), url("fonts/suisse/SuisseIntl-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Suisse Int'l";
+    src: url("fonts/suisse/SuisseIntl-BookItalic.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-BookItalic.woff") format("woff"), url("fonts/suisse/SuisseIntl-BookItalic.ttf") format("truetype");
+    font-weight: 450;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Suisse Int'l";
+    src: url("fonts/suisse/SuisseIntl-MediumItalic.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-MediumItalic.woff") format("woff"), url("fonts/suisse/SuisseIntl-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Suisse Int'l";
+    src: url("fonts/suisse/SuisseIntl-SemiBoldItalic.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-SemiBoldItalic.woff") format("woff"), url("fonts/suisse/SuisseIntl-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Suisse Int'l";
+    src: url("fonts/suisse/SuisseIntl-BoldItalic.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-BoldItalic.woff") format("woff"), url("fonts/suisse/SuisseIntl-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Suisse Int'l";
+    src: url("fonts/suisse/SuisseIntl-BlackItalic.woff2") format("woff2"), url("fonts/suisse/SuisseIntl-BlackItalic.woff") format("woff"), url("fonts/suisse/SuisseIntl-BlackItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
     font-family: "Suisse Works";
-    src: url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-Bold-Thin.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-Bold-Thin.ttf") format("truetype");
+    src: url("fonts/suisse-works/SuisseWorks.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks.woff") format("woff"), url("fonts/suisse-works/SuisseWorks.otf") format("truetype");
     font-weight: 300;
     font-display: swap;
     font-style: serif;
+  }
+  @font-face {
+    font-family: "Suisse Works";
+    src: url("fonts/suisse-works/SuisseWorks-Book.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-Book.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-Book.otf") format("truetype");
+    font-weight: 450;
+    font-display: swap;
+    font-style: serif;
+  }
+  @font-face {
+    font-family: "Suisse Works";
+    src: url("fonts/suisse-works/SuisseWorks-Medium.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-Medium.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-Medium.otf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: serif;
+  }
+  @font-face {
+    font-family: "Suisse Works";
+    src: url("fonts/suisse-works/SuisseWorks-Italic.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-Italic.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-Italic.otf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Suisse Works";
+    src: url("fonts/suisse-works/SuisseWorks-BookItalic.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-BookItalic.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-BookItalic.otf") format("truetype");
+    font-weight: 450;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Suisse Works";
+    src: url("fonts/suisse-works/SuisseWorks-MediumItalic.woff2") format("woff2"), url("fonts/suisse-works/SuisseWorks-MediumItalic.woff") format("woff"), url("fonts/suisse-works/SuisseWorks-MediumItalic.otf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
   }
 }
 @layer components {
@@ -1167,11 +1197,6 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-ordinal {
   syntax: "*";
   inherits: false;
@@ -1191,11 +1216,6 @@
 @property --tw-numeric-fraction {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-leading {
   syntax: "*";
@@ -1273,13 +1293,11 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
-      --tw-border-style: solid;
       --tw-ordinal: initial;
       --tw-slashed-zero: initial;
       --tw-numeric-figure: initial;
       --tw-numeric-spacing: initial;
       --tw-numeric-fraction: initial;
-      --tw-outline-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;

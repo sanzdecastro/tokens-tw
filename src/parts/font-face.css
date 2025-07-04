@@ -2,9 +2,9 @@
 /* Thin 300 */
 @font-face {
   font-family: "Suisse Int'l";
-  src: url("fonts/suisse/SuisseIntl-Thin.woff2") format("woff2"),
-    url("fonts/suisse/SuisseIntl-Thin.woff") format("woff"),
-    url("fonts/suisse/SuisseIntl-Thin.ttf") format("truetype");
+  src: url("fonts/suisse/SuisseIntl-Thin-2.woff2") format("woff2"),
+    url("fonts/suisse/SuisseIntl-Thin-2.woff") format("woff"),
+    url("fonts/suisse/SuisseIntl-Thin-2.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
   font-style: normal;

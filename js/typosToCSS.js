@@ -26,9 +26,14 @@ function addUnit(key, value) {
   }
   // Si es string y la propiedad es un fontBase, envolver en comillas dobles si no las tiene ya.
   if (typeof value === "string" && key.toLowerCase().includes("fontbase")) {
-    if (!value.startsWith('"') && !value.startsWith("'")) {
-      return `"${value}"`;
+    // Normalizamos el nombre de la fuente
+    let cleaned = value.replace(/Suisse\s*Int'?l/g, "SuisseIntl");
+    
+    // Si no tiene comillas, se las agregamos
+    if (!cleaned.startsWith('"') && !cleaned.startsWith("'")) {
+      cleaned = `"${cleaned}"`;
     }
+    return cleaned;
   }
   return value;
 }

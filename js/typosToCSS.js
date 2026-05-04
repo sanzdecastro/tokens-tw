@@ -57,7 +57,7 @@ function generateCssBlock(breakpoint, data) {
 
 // Función para generar estilos para cada heading (h1, h2, h3, h4) utilizando las variables CSS
 function generateHeadingStyles() {
-  const headings = ["h1", "h2", "h3", "h4", "lead", "body-lg", "body-md", "body-sm"];
+  const headings = ["h1", "h2", "h3", "h4", "h5", "h6", "lead", "body-lg", "body-md", "body-sm"];
   let css = "";
   headings.forEach(heading => {
     css += `.text-${heading} {\n`;

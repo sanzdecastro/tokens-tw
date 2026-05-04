@@ -6,13 +6,13 @@
     --sc-typography-h1-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-h1-font-feature-settings: 'ss02' on;
     --sc-typography-h1-line-height: 120%;
-    --sc-typography-h1-letter-spacing: -0.5%;
+    --sc-typography-h1-letter-spacing: -0.25%;
     --sc-typography-h1-font-base: "SuisseIntl";
     --sc-typography-h2-font-base: "SuisseIntl";
     --sc-typography-h2-font-weight: 300;
     --sc-typography-h2-font-size: 28px;
     --sc-typography-h2-line-height: 120%;
-    --sc-typography-h2-letter-spacing: -0.5%;
+    --sc-typography-h2-letter-spacing: -0.25%;
     --sc-typography-h2-paragraph-spacing: 32px;
     --sc-typography-h2-indent: 0px;
     --sc-typography-h2-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -21,7 +21,7 @@
     --sc-typography-h3-font-weight: 300;
     --sc-typography-h3-font-size: 24px;
     --sc-typography-h3-line-height: 120%;
-    --sc-typography-h3-letter-spacing: -0.5%;
+    --sc-typography-h3-letter-spacing: -0.25%;
     --sc-typography-h3-paragraph-spacing: 24px;
     --sc-typography-h3-indent: 0px;
     --sc-typography-h3-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -30,7 +30,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 20px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: -0.25%;
+    --sc-typography-h4-letter-spacing: 0%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -39,17 +39,17 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 18px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: -0.5%;
-    --sc-typography-lead-paragraph-spacing: 10px;
+    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-paragraph-spacing: 16px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-lead-font-feature-settings: String value;
     --sc-typography-body-lg-font-base: "SuisseIntl";
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 16px;
-    --sc-typography-body-lg-line-height: 130%;
-    --sc-typography-body-lg-letter-spacing: -0.25%;
-    --sc-typography-body-lg-paragraph-spacing: 10px;
+    --sc-typography-body-lg-line-height: 145%;
+    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-paragraph-spacing: 16px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
     --sc-typography-body-lg-font-feature-settings: String value;
@@ -58,7 +58,7 @@
     --sc-typography-body-md-font-size: 14px;
     --sc-typography-body-md-line-height: 145%;
     --sc-typography-body-md-letter-spacing: 0;
-    --sc-typography-body-md-paragraph-spacing: 10px;
+    --sc-typography-body-md-paragraph-spacing: 14px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-md-font-feature-settings: String value;
@@ -71,6 +71,24 @@
     --sc-typography-body-sm-indent: 0px;
     --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-sm-font-feature-settings: String value;
+    --sc-typography-h5-font-base: "SuisseIntl";
+    --sc-typography-h5-font-weight: 300;
+    --sc-typography-h5-font-size: 18px;
+    --sc-typography-h5-line-height: 130%;
+    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-paragraph-spacing: 10px;
+    --sc-typography-h5-indent: 0px;
+    --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h5-font-feature-settings: 'ss02' on;
+    --sc-typography-h6-font-base: "SuisseIntl";
+    --sc-typography-h6-font-weight: 300;
+    --sc-typography-h6-font-size: 18px;
+    --sc-typography-h6-line-height: 130%;
+    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-paragraph-spacing: 10px;
+    --sc-typography-h6-indent: 0px;
+    --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h6-font-feature-settings: 'ss02' on;
 }
 
 @variant md {
@@ -82,13 +100,13 @@
     --sc-typography-h1-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-h1-font-feature-settings: 'ss02' on;
     --sc-typography-h1-line-height: 120%;
-    --sc-typography-h1-letter-spacing: -0.5%;
+    --sc-typography-h1-letter-spacing: -0.25%;
     --sc-typography-h1-font-base: "SuisseIntl";
     --sc-typography-h2-font-base: "SuisseIntl";
     --sc-typography-h2-font-weight: 300;
     --sc-typography-h2-font-size: 30px;
     --sc-typography-h2-line-height: 120%;
-    --sc-typography-h2-letter-spacing: -0.5%;
+    --sc-typography-h2-letter-spacing: -0.25%;
     --sc-typography-h2-paragraph-spacing: 24px;
     --sc-typography-h2-indent: 0px;
     --sc-typography-h2-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -97,7 +115,7 @@
     --sc-typography-h3-font-weight: 300;
     --sc-typography-h3-font-size: 24px;
     --sc-typography-h3-line-height: 120%;
-    --sc-typography-h3-letter-spacing: -0.5%;
+    --sc-typography-h3-letter-spacing: -0.25%;
     --sc-typography-h3-paragraph-spacing: 24px;
     --sc-typography-h3-indent: 0px;
     --sc-typography-h3-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -106,7 +124,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 20px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: -0.25%;
+    --sc-typography-h4-letter-spacing: 0%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -115,17 +133,17 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 18px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: -0.5%;
-    --sc-typography-lead-paragraph-spacing: 10px;
+    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-paragraph-spacing: 16px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-lead-font-feature-settings: String value;
     --sc-typography-body-lg-font-base: "SuisseIntl";
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 18px;
-    --sc-typography-body-lg-line-height: 130%;
-    --sc-typography-body-lg-letter-spacing: -0.25%;
-    --sc-typography-body-lg-paragraph-spacing: 10px;
+    --sc-typography-body-lg-line-height: 145%;
+    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-paragraph-spacing: 16px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
     --sc-typography-body-lg-font-feature-settings: String value;
@@ -134,7 +152,7 @@
     --sc-typography-body-md-font-size: 16px;
     --sc-typography-body-md-line-height: 145%;
     --sc-typography-body-md-letter-spacing: 0;
-    --sc-typography-body-md-paragraph-spacing: 10px;
+    --sc-typography-body-md-paragraph-spacing: 16px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-md-font-feature-settings: String value;
@@ -143,10 +161,28 @@
     --sc-typography-body-sm-font-size: 14px;
     --sc-typography-body-sm-line-height: 145%;
     --sc-typography-body-sm-letter-spacing: 0;
-    --sc-typography-body-sm-paragraph-spacing: 10px;
+    --sc-typography-body-sm-paragraph-spacing: 14px;
     --sc-typography-body-sm-indent: 0px;
     --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-sm-font-feature-settings: String value;
+    --sc-typography-h5-font-base: "SuisseIntl";
+    --sc-typography-h5-font-weight: 300;
+    --sc-typography-h5-font-size: 20px;
+    --sc-typography-h5-line-height: 130%;
+    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-paragraph-spacing: 10px;
+    --sc-typography-h5-indent: 0px;
+    --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h5-font-feature-settings: 'ss02' on;
+    --sc-typography-h6-font-base: "SuisseIntl";
+    --sc-typography-h6-font-weight: 300;
+    --sc-typography-h6-font-size: 18px;
+    --sc-typography-h6-line-height: 130%;
+    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-paragraph-spacing: 10px;
+    --sc-typography-h6-indent: 0px;
+    --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h6-font-feature-settings: 'ss02' on;
   }
 }
 
@@ -159,13 +195,13 @@
     --sc-typography-h1-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-h1-font-feature-settings: 'ss02' on;
     --sc-typography-h1-line-height: 120%;
-    --sc-typography-h1-letter-spacing: -0.5%;
+    --sc-typography-h1-letter-spacing: -0.25%;
     --sc-typography-h1-font-base: "SuisseIntl";
     --sc-typography-h2-font-base: "SuisseIntl";
     --sc-typography-h2-font-weight: 300;
     --sc-typography-h2-font-size: 36px;
     --sc-typography-h2-line-height: 120%;
-    --sc-typography-h2-letter-spacing: -0.5%;
+    --sc-typography-h2-letter-spacing: -0.25%;
     --sc-typography-h2-paragraph-spacing: 24px;
     --sc-typography-h2-indent: 0px;
     --sc-typography-h2-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -174,7 +210,7 @@
     --sc-typography-h3-font-weight: 300;
     --sc-typography-h3-font-size: 32px;
     --sc-typography-h3-line-height: 120%;
-    --sc-typography-h3-letter-spacing: -0.5%;
+    --sc-typography-h3-letter-spacing: -0.25%;
     --sc-typography-h3-paragraph-spacing: 24px;
     --sc-typography-h3-indent: 0px;
     --sc-typography-h3-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -183,7 +219,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 28px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: -0.25%;
+    --sc-typography-h4-letter-spacing: 0%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -192,17 +228,17 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 20px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: -0.5%;
-    --sc-typography-lead-paragraph-spacing: 10px;
+    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-paragraph-spacing: 20px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-lead-font-feature-settings: String value;
     --sc-typography-body-lg-font-base: "SuisseIntl";
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 18px;
-    --sc-typography-body-lg-line-height: 130%;
-    --sc-typography-body-lg-letter-spacing: -0.25%;
-    --sc-typography-body-lg-paragraph-spacing: 10px;
+    --sc-typography-body-lg-line-height: 145%;
+    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-paragraph-spacing: 16px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
     --sc-typography-body-lg-font-feature-settings: String value;
@@ -211,7 +247,7 @@
     --sc-typography-body-md-font-size: 16px;
     --sc-typography-body-md-line-height: 145%;
     --sc-typography-body-md-letter-spacing: 0;
-    --sc-typography-body-md-paragraph-spacing: 10px;
+    --sc-typography-body-md-paragraph-spacing: 16px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-md-font-feature-settings: String value;
@@ -220,10 +256,28 @@
     --sc-typography-body-sm-font-size: 14px;
     --sc-typography-body-sm-line-height: 145%;
     --sc-typography-body-sm-letter-spacing: 0;
-    --sc-typography-body-sm-paragraph-spacing: 10px;
+    --sc-typography-body-sm-paragraph-spacing: 14px;
     --sc-typography-body-sm-indent: 0px;
     --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-sm-font-feature-settings: String value;
+    --sc-typography-h5-font-base: "SuisseIntl";
+    --sc-typography-h5-font-weight: 300;
+    --sc-typography-h5-font-size: 24px;
+    --sc-typography-h5-line-height: 130%;
+    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-paragraph-spacing: 10px;
+    --sc-typography-h5-indent: 0px;
+    --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h5-font-feature-settings: 'ss02' on;
+    --sc-typography-h6-font-base: "SuisseIntl";
+    --sc-typography-h6-font-weight: 300;
+    --sc-typography-h6-font-size: 20px;
+    --sc-typography-h6-line-height: 130%;
+    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-paragraph-spacing: 10px;
+    --sc-typography-h6-indent: 0px;
+    --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h6-font-feature-settings: 'ss02' on;
   }
 }
 
@@ -236,13 +290,13 @@
     --sc-typography-h1-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-h1-font-feature-settings: 'ss02' on;
     --sc-typography-h1-line-height: 120%;
-    --sc-typography-h1-letter-spacing: -0.5%;
+    --sc-typography-h1-letter-spacing: -0.25%;
     --sc-typography-h1-font-base: "SuisseIntl";
     --sc-typography-h2-font-base: "SuisseIntl";
     --sc-typography-h2-font-weight: 300;
     --sc-typography-h2-font-size: 48px;
     --sc-typography-h2-line-height: 120%;
-    --sc-typography-h2-letter-spacing: -0.5%;
+    --sc-typography-h2-letter-spacing: -0.25%;
     --sc-typography-h2-paragraph-spacing: 24px;
     --sc-typography-h2-indent: 0px;
     --sc-typography-h2-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -251,7 +305,7 @@
     --sc-typography-h3-font-weight: 300;
     --sc-typography-h3-font-size: 36px;
     --sc-typography-h3-line-height: 120%;
-    --sc-typography-h3-letter-spacing: -0.5%;
+    --sc-typography-h3-letter-spacing: -0.25%;
     --sc-typography-h3-paragraph-spacing: 24px;
     --sc-typography-h3-indent: 0px;
     --sc-typography-h3-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -260,7 +314,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 30px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: -0.25%;
+    --sc-typography-h4-letter-spacing: 0%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -269,17 +323,17 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 24px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: -0.5%;
-    --sc-typography-lead-paragraph-spacing: 10px;
+    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-paragraph-spacing: 24px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-lead-font-feature-settings: String value;
     --sc-typography-body-lg-font-base: "SuisseIntl";
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 20px;
-    --sc-typography-body-lg-line-height: 130%;
-    --sc-typography-body-lg-letter-spacing: -0.25%;
-    --sc-typography-body-lg-paragraph-spacing: 10px;
+    --sc-typography-body-lg-line-height: 145%;
+    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-paragraph-spacing: 20px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
     --sc-typography-body-lg-font-feature-settings: String value;
@@ -288,7 +342,7 @@
     --sc-typography-body-md-font-size: 18px;
     --sc-typography-body-md-line-height: 145%;
     --sc-typography-body-md-letter-spacing: -0.25%;
-    --sc-typography-body-md-paragraph-spacing: 10px;
+    --sc-typography-body-md-paragraph-spacing: 16px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-md-font-feature-settings: String value;
@@ -297,10 +351,28 @@
     --sc-typography-body-sm-font-size: 16px;
     --sc-typography-body-sm-line-height: 145%;
     --sc-typography-body-sm-letter-spacing: 0;
-    --sc-typography-body-sm-paragraph-spacing: 10px;
+    --sc-typography-body-sm-paragraph-spacing: 16px;
     --sc-typography-body-sm-indent: 0px;
     --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
     --sc-typography-body-sm-font-feature-settings: String value;
+    --sc-typography-h5-font-base: "SuisseIntl";
+    --sc-typography-h5-font-weight: 300;
+    --sc-typography-h5-font-size: 28px;
+    --sc-typography-h5-line-height: 130%;
+    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-paragraph-spacing: 10px;
+    --sc-typography-h5-indent: 0px;
+    --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h5-font-feature-settings: 'ss02' on;
+    --sc-typography-h6-font-base: "SuisseIntl";
+    --sc-typography-h6-font-weight: 300;
+    --sc-typography-h6-font-size: 24px;
+    --sc-typography-h6-line-height: 130%;
+    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-paragraph-spacing: 10px;
+    --sc-typography-h6-indent: 0px;
+    --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
+    --sc-typography-h6-font-feature-settings: 'ss02' on;
   }
 }
 
@@ -354,6 +426,32 @@
   text-indent: var(--sc-typography-h4-indent);
   font-feature-settings: var(--sc-typography-h4-font-feature-settings);
   font-variant-numeric: var(--sc-typography-h4-font-variant-numeric);
+}
+
+.text-h5 {
+  /* Usamos la variable correspondiente para la fuente */
+  font-family: var(--sc-typography-h5-font-base);
+  font-weight: var(--sc-typography-h5-font-weight);
+  font-size: var(--sc-typography-h5-font-size);
+  line-height: var(--sc-typography-h5-line-height);
+  letter-spacing: var(--sc-typography-h5-letter-spacing);
+  margin-bottom: var(--sc-typography-h5-paragraph-spacing);
+  text-indent: var(--sc-typography-h5-indent);
+  font-feature-settings: var(--sc-typography-h5-font-feature-settings);
+  font-variant-numeric: var(--sc-typography-h5-font-variant-numeric);
+}
+
+.text-h6 {
+  /* Usamos la variable correspondiente para la fuente */
+  font-family: var(--sc-typography-h6-font-base);
+  font-weight: var(--sc-typography-h6-font-weight);
+  font-size: var(--sc-typography-h6-font-size);
+  line-height: var(--sc-typography-h6-line-height);
+  letter-spacing: var(--sc-typography-h6-letter-spacing);
+  margin-bottom: var(--sc-typography-h6-paragraph-spacing);
+  text-indent: var(--sc-typography-h6-indent);
+  font-feature-settings: var(--sc-typography-h6-font-feature-settings);
+  font-variant-numeric: var(--sc-typography-h6-font-variant-numeric);
 }
 
 .text-lead {

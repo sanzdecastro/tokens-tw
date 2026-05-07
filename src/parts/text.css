@@ -376,7 +376,7 @@
   }
 }
 
-.text-h1 {
+@utility text-h1 {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-h1-font-base);
   font-weight: var(--sc-typography-h1-font-weight);
@@ -389,7 +389,7 @@
   font-variant-numeric: var(--sc-typography-h1-font-variant-numeric);
 }
 
-.text-h2 {
+@utility text-h2 {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-h2-font-base);
   font-weight: var(--sc-typography-h2-font-weight);
@@ -402,7 +402,7 @@
   font-variant-numeric: var(--sc-typography-h2-font-variant-numeric);
 }
 
-.text-h3 {
+@utility text-h3 {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-h3-font-base);
   font-weight: var(--sc-typography-h3-font-weight);
@@ -415,7 +415,7 @@
   font-variant-numeric: var(--sc-typography-h3-font-variant-numeric);
 }
 
-.text-h4 {
+@utility text-h4 {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-h4-font-base);
   font-weight: var(--sc-typography-h4-font-weight);
@@ -428,7 +428,7 @@
   font-variant-numeric: var(--sc-typography-h4-font-variant-numeric);
 }
 
-.text-h5 {
+@utility text-h5 {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-h5-font-base);
   font-weight: var(--sc-typography-h5-font-weight);
@@ -441,7 +441,7 @@
   font-variant-numeric: var(--sc-typography-h5-font-variant-numeric);
 }
 
-.text-h6 {
+@utility text-h6 {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-h6-font-base);
   font-weight: var(--sc-typography-h6-font-weight);
@@ -454,7 +454,7 @@
   font-variant-numeric: var(--sc-typography-h6-font-variant-numeric);
 }
 
-.text-lead {
+@utility text-lead {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-lead-font-base);
   font-weight: var(--sc-typography-lead-font-weight);
@@ -467,7 +467,7 @@
   font-variant-numeric: var(--sc-typography-lead-font-variant-numeric);
 }
 
-.text-body-lg {
+@utility text-body-lg {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-body-lg-font-base);
   font-weight: var(--sc-typography-body-lg-font-weight);
@@ -480,7 +480,7 @@
   font-variant-numeric: var(--sc-typography-body-lg-font-variant-numeric);
 }
 
-.text-body-md {
+@utility text-body-md {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-body-md-font-base);
   font-weight: var(--sc-typography-body-md-font-weight);
@@ -493,7 +493,7 @@
   font-variant-numeric: var(--sc-typography-body-md-font-variant-numeric);
 }
 
-.text-body-sm {
+@utility text-body-sm {
   /* Usamos la variable correspondiente para la fuente */
   font-family: var(--sc-typography-body-sm-font-base);
   font-weight: var(--sc-typography-body-sm-font-weight);

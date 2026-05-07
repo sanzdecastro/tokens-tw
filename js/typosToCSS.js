@@ -60,7 +60,7 @@ function generateHeadingStyles() {
   const headings = ["h1", "h2", "h3", "h4", "h5", "h6", "lead", "body-lg", "body-md", "body-sm"];
   let css = "";
   headings.forEach(heading => {
-    css += `.text-${heading} {\n`;
+    css += `@utility text-${heading} {\n`;
     css += `  /* Usamos la variable correspondiente para la fuente */\n`;
     css += `  font-family: var(--sc-typography-${heading}-font-base);\n`;
     css += `  font-weight: var(--sc-typography-${heading}-font-weight);\n`;

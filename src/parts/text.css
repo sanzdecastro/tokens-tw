@@ -30,7 +30,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 20px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: 0%;
+    --sc-typography-h4-letter-spacing: -0.25%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -39,7 +39,7 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 18px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-letter-spacing: -0.5%;
     --sc-typography-lead-paragraph-spacing: 16px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -48,7 +48,7 @@
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 16px;
     --sc-typography-body-lg-line-height: 145%;
-    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-letter-spacing: -0.5%;
     --sc-typography-body-lg-paragraph-spacing: 16px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
@@ -57,7 +57,7 @@
     --sc-typography-body-md-font-weight: 300;
     --sc-typography-body-md-font-size: 14px;
     --sc-typography-body-md-line-height: 145%;
-    --sc-typography-body-md-letter-spacing: 0;
+    --sc-typography-body-md-letter-spacing: -0.5%;
     --sc-typography-body-md-paragraph-spacing: 14px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -66,7 +66,7 @@
     --sc-typography-body-sm-font-weight: 300;
     --sc-typography-body-sm-font-size: 12px;
     --sc-typography-body-sm-line-height: 145%;
-    --sc-typography-body-sm-letter-spacing: 0;
+    --sc-typography-body-sm-letter-spacing: -0.5%;
     --sc-typography-body-sm-paragraph-spacing: 10px;
     --sc-typography-body-sm-indent: 0px;
     --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -75,7 +75,7 @@
     --sc-typography-h5-font-weight: 300;
     --sc-typography-h5-font-size: 18px;
     --sc-typography-h5-line-height: 130%;
-    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-letter-spacing: -0.25%;
     --sc-typography-h5-paragraph-spacing: 10px;
     --sc-typography-h5-indent: 0px;
     --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -84,7 +84,7 @@
     --sc-typography-h6-font-weight: 300;
     --sc-typography-h6-font-size: 18px;
     --sc-typography-h6-line-height: 130%;
-    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-letter-spacing: -0.25%;
     --sc-typography-h6-paragraph-spacing: 10px;
     --sc-typography-h6-indent: 0px;
     --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -124,7 +124,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 20px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: 0%;
+    --sc-typography-h4-letter-spacing: -0.25%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -133,7 +133,7 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 18px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-letter-spacing: -0.5%;
     --sc-typography-lead-paragraph-spacing: 16px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -142,7 +142,7 @@
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 18px;
     --sc-typography-body-lg-line-height: 145%;
-    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-letter-spacing: -0.5%;
     --sc-typography-body-lg-paragraph-spacing: 16px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
@@ -151,7 +151,7 @@
     --sc-typography-body-md-font-weight: 300;
     --sc-typography-body-md-font-size: 16px;
     --sc-typography-body-md-line-height: 145%;
-    --sc-typography-body-md-letter-spacing: 0;
+    --sc-typography-body-md-letter-spacing: -0.5%;
     --sc-typography-body-md-paragraph-spacing: 16px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -160,7 +160,7 @@
     --sc-typography-body-sm-font-weight: 300;
     --sc-typography-body-sm-font-size: 14px;
     --sc-typography-body-sm-line-height: 145%;
-    --sc-typography-body-sm-letter-spacing: 0;
+    --sc-typography-body-sm-letter-spacing: -0.5%;
     --sc-typography-body-sm-paragraph-spacing: 14px;
     --sc-typography-body-sm-indent: 0px;
     --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -169,7 +169,7 @@
     --sc-typography-h5-font-weight: 300;
     --sc-typography-h5-font-size: 20px;
     --sc-typography-h5-line-height: 130%;
-    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-letter-spacing: -0.25%;
     --sc-typography-h5-paragraph-spacing: 10px;
     --sc-typography-h5-indent: 0px;
     --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -178,7 +178,7 @@
     --sc-typography-h6-font-weight: 300;
     --sc-typography-h6-font-size: 18px;
     --sc-typography-h6-line-height: 130%;
-    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-letter-spacing: -0.25%;
     --sc-typography-h6-paragraph-spacing: 10px;
     --sc-typography-h6-indent: 0px;
     --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -219,7 +219,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 28px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: 0%;
+    --sc-typography-h4-letter-spacing: -0.25%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -228,7 +228,7 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 20px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-letter-spacing: -0.5%;
     --sc-typography-lead-paragraph-spacing: 20px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -237,7 +237,7 @@
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 18px;
     --sc-typography-body-lg-line-height: 145%;
-    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-letter-spacing: -0.5%;
     --sc-typography-body-lg-paragraph-spacing: 16px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
@@ -246,7 +246,7 @@
     --sc-typography-body-md-font-weight: 300;
     --sc-typography-body-md-font-size: 16px;
     --sc-typography-body-md-line-height: 145%;
-    --sc-typography-body-md-letter-spacing: 0;
+    --sc-typography-body-md-letter-spacing: -0.5%;
     --sc-typography-body-md-paragraph-spacing: 16px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -255,7 +255,7 @@
     --sc-typography-body-sm-font-weight: 300;
     --sc-typography-body-sm-font-size: 14px;
     --sc-typography-body-sm-line-height: 145%;
-    --sc-typography-body-sm-letter-spacing: 0;
+    --sc-typography-body-sm-letter-spacing: -0.5%;
     --sc-typography-body-sm-paragraph-spacing: 14px;
     --sc-typography-body-sm-indent: 0px;
     --sc-typography-body-sm-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -264,7 +264,7 @@
     --sc-typography-h5-font-weight: 300;
     --sc-typography-h5-font-size: 24px;
     --sc-typography-h5-line-height: 130%;
-    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-letter-spacing: -0.25%;
     --sc-typography-h5-paragraph-spacing: 10px;
     --sc-typography-h5-indent: 0px;
     --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -273,7 +273,7 @@
     --sc-typography-h6-font-weight: 300;
     --sc-typography-h6-font-size: 20px;
     --sc-typography-h6-line-height: 130%;
-    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-letter-spacing: -0.25%;
     --sc-typography-h6-paragraph-spacing: 10px;
     --sc-typography-h6-indent: 0px;
     --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -314,7 +314,7 @@
     --sc-typography-h4-font-weight: 300;
     --sc-typography-h4-font-size: 30px;
     --sc-typography-h4-line-height: 130%;
-    --sc-typography-h4-letter-spacing: 0%;
+    --sc-typography-h4-letter-spacing: -0.25%;
     --sc-typography-h4-paragraph-spacing: 10px;
     --sc-typography-h4-indent: 0px;
     --sc-typography-h4-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -323,7 +323,7 @@
     --sc-typography-lead-font-weight: 300;
     --sc-typography-lead-font-size: 24px;
     --sc-typography-lead-line-height: 130%;
-    --sc-typography-lead-letter-spacing: 0%;
+    --sc-typography-lead-letter-spacing: -0.5%;
     --sc-typography-lead-paragraph-spacing: 24px;
     --sc-typography-lead-indent: 0px;
     --sc-typography-lead-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -332,7 +332,7 @@
     --sc-typography-body-lg-font-weight: 300;
     --sc-typography-body-lg-font-size: 20px;
     --sc-typography-body-lg-line-height: 145%;
-    --sc-typography-body-lg-letter-spacing: 0%;
+    --sc-typography-body-lg-letter-spacing: -0.5%;
     --sc-typography-body-lg-paragraph-spacing: 20px;
     --sc-typography-body-lg-indent: 0px;
     --sc-typography-body-lg-font-variant-numeric: String value;
@@ -341,7 +341,7 @@
     --sc-typography-body-md-font-weight: 300;
     --sc-typography-body-md-font-size: 18px;
     --sc-typography-body-md-line-height: 145%;
-    --sc-typography-body-md-letter-spacing: -0.25%;
+    --sc-typography-body-md-letter-spacing: -0.5%;
     --sc-typography-body-md-paragraph-spacing: 16px;
     --sc-typography-body-md-indent: 0px;
     --sc-typography-body-md-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -359,7 +359,7 @@
     --sc-typography-h5-font-weight: 300;
     --sc-typography-h5-font-size: 28px;
     --sc-typography-h5-line-height: 130%;
-    --sc-typography-h5-letter-spacing: 0%;
+    --sc-typography-h5-letter-spacing: -0.25%;
     --sc-typography-h5-paragraph-spacing: 10px;
     --sc-typography-h5-indent: 0px;
     --sc-typography-h5-font-variant-numeric: oldstyle-nums proportional-nums;
@@ -368,7 +368,7 @@
     --sc-typography-h6-font-weight: 300;
     --sc-typography-h6-font-size: 24px;
     --sc-typography-h6-line-height: 130%;
-    --sc-typography-h6-letter-spacing: 0%;
+    --sc-typography-h6-letter-spacing: -0.25%;
     --sc-typography-h6-paragraph-spacing: 10px;
     --sc-typography-h6-indent: 0px;
     --sc-typography-h6-font-variant-numeric: oldstyle-nums proportional-nums;
